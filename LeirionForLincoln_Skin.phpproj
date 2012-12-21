@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>LeirionForLincoln_Skin</Name>
+    <ProjectGuid>{d116d748-0cad-4a8c-a8b8-007e15b92c46}</ProjectGuid>
+    <RootNamespace>LeirionForLincoln_Skin</RootNamespace>
+    <OutputType>Library</OutputType>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="css\ie.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="editor-style.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\button-gray.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\homepage-photo-banner.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\LayoutA-background-repeat.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\LayoutA-secondary-background-repeat.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\logo-leirion-for-lincoln.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\navigation_sprite.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\social_media_sprite_1216.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="js\html5.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="js\navigation.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="js\theme-customizer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="style.css">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="css\" />
+    <Folder Include="images\" />
+    <Folder Include="js\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="front-page.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="footer.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="functions.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="header.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="index.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="page.php">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
