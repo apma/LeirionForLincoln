@@ -3,10 +3,11 @@
  * The template for displaying the footer.
  */
 ?>
-        <div id="connect-area">
-            <div class="shadowline"></div>
-            test
-        </div>
+    <div id="connect-area">
+        <div class="shadowline"></div>
+        <h2>Connect with Our Campaign</h2>
+            
+    </div>
 	</div><!-- #main .wrapper -->
 	<footer id="colophon" role="contentinfo">
         <div class="footer-logo"></div>

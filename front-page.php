@@ -34,7 +34,8 @@ get_header(); ?>
                         <div class="byline">&mdash; Mary Ma, Lincoln Resident<br /> Small Business Owner</div>
                     </div>
                 </div>
-            </div>
+            </div><!-- #tri-fold -->
+            
             
 			
 

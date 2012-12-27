@@ -44,6 +44,14 @@
   })();
 
 </script>
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <div id="wrapper">
 	<header id="masthead" class="site-header" role="banner">
 		<hgroup>
@@ -54,7 +62,11 @@
                 </div>
                 
             </div>
-            <div id="head_social"></div>
+            <div id="head_social">
+            <div class="fb-like" data-href="http://www.facebook.com/LeirionforLincoln" data-send="false" data-layout="button_count" data-width="60" data-show-faces="true"></div>
+            <a href="https://twitter.com/leirion4lincoln" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @leirion4lincoln</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            </div>
             
             <img id="logo" src="/wp-includes/images/logo-leirion-for-lincoln.png" />
 		</hgroup>

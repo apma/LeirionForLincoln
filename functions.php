@@ -5,7 +5,9 @@
 
 
 /*Need to check if user logged in. If not, don't show.*/
-add_filter( 'show_admin_bar', '__return_true' );
+if ( is_user_logged_in() ) {
+    add_filter( 'show_admin_bar', '__return_true' );
+}
 
 /* Menus */
 function register_my_menus() {
