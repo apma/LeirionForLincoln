@@ -213,7 +213,8 @@ header#masthead hgroup{height:144px;}
 #tri-fold-area {padding:50px 0 60px 0}
     .home-tri-fold{ width: 280px;margin-left: 30px;min-height: 100px;float: left;}
     .home-tri-fold .tri-fold-container { display:block}
-    .home-tri-fold h1{float: left;font-family: helvetica, sans-serif;font-size: 24px;color: #1b3768;font-weight: normal;}
+    .home-tri-fold h1,
+    #connect-area #connect-content h2 {float: left;font-family: helvetica, sans-serif;font-size: 24px;color: #1b3768;font-weight: normal;}
     .home-tri-fold .headerbutton-tri-fold{float: right;background: url(/wp-includes/images/button-gray.jpg) repeat-x;font-family: helvetica, sans-serif;
                                           color: #656565;font-size: 11px;height: 18px;border: 1px #c8c8c8 solid;cursor: pointer;margin-top: 7px;}
     .home-tri-fold .headerbutton-tri-fold span {display: block; margin-top: 3px;text-align: center;padding: 0 5px 0 5px;}
@@ -225,7 +226,7 @@ header#masthead hgroup{height:144px;}
     .home-tri-fold .tri-fold-content .byline {background: url(/wp-includes/images/endorsement-arrow.png) no-repeat; font-size: 11px;padding:20px 15px 0 8px;text-align: right;}
 
 #connect-area { min-height: 300px; border-left: 1px #e5e4e4 solid;border-right: 1px #e5e4e4 solid;background: url(/wp-includes/images/background-pattern.png) repeat;}
-#connect-area h2{}
+#connect-area #connect-content { margin: 50px 0 0 30px;}
 
 /* Secondary Page */
 #secondary{ margin-top: 100px;}

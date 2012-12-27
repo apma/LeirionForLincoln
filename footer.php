@@ -5,7 +5,9 @@
 ?>
     <div id="connect-area">
         <div class="shadowline"></div>
+        <div id="connect-content">
         <h2>Connect with Our Campaign</h2>
+        </div>
             
     </div>
 	</div><!-- #main .wrapper -->
