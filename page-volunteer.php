@@ -1,12 +1,12 @@
 <?php
 /**
- * The template for displaying all pages.
+ * Template Name: Volunteer
  */
 
 get_header(); ?>
 
 	<div id="secondary" class="site-content">
-        <h2>About Leirion Gaylor Baird</h2>
+        <h2><?php the_title();  ?></h2>
 		<div id="content" role="main">
             <div id="main-content">
                 <?php the_block('main'); ?>

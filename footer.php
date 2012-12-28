@@ -22,9 +22,9 @@
             </div>
             <div class="clear-both"></div>
         </div>
-            
+        <div class="shadowline-invert" style="position:relative; bottom:0;"></div>    
     </div>
-    <div class="shadowline"></div>
+    
 	</div><!-- #main .wrapper -->
 	<footer id="colophon" role="contentinfo">
         <div class="footer-logo"></div>

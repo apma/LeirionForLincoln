@@ -29,7 +29,7 @@
 <?php wp_head(); ?>
 </head>
 
-<body <?php body_class( (is_front_page)?'homepage':'contentpage' ); ?>>
+<body <?php body_class( (is_front_page() ?'homepage':'contentpage') ); ?>>
 <!-- el goog -->
 <script type="text/javascript">
 

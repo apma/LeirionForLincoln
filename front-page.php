@@ -26,12 +26,13 @@ get_header(); ?>
                     <a class="headerbutton-tri-fold"><span>Next &raquo;</span></a>
                     <div class="clear-both"></div>
                     <div class="tri-fold-content">
-                        <div class="quote">
+                        <?php the_block('endorsements'); ?>
+                        <!--<div class="quote">
                             <p>
                             sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
                             </p>
                         </div>
-                        <div class="byline">&mdash; Mary Ma, Lincoln Resident<br /> Small Business Owner</div>
+                        <div class="byline">&mdash; Mary Ma, Lincoln Resident<br /> Small Business Owner</div>-->
                     </div>
                 </div>
             </div><!-- #tri-fold -->
