@@ -23,9 +23,10 @@ get_header(); ?>
                 </div>
                 <div class="home-tri-fold">
                     <h1>Endorsements</h1>
-                    <a class="headerbutton-tri-fold"><span>Next &raquo;</span></a>
+                    <a class="headerbutton-tri-fold endorse"><span>Next &raquo;</span></a>
                     <div class="clear-both"></div>
                     <div class="tri-fold-content">
+                        <div id="endorsement-block">
                         <?php the_block('endorsements'); ?>
                         <!--<div class="quote">
                             <p>
@@ -33,6 +34,7 @@ get_header(); ?>
                             </p>
                         </div>
                         <div class="byline">&mdash; Mary Ma, Lincoln Resident<br /> Small Business Owner</div>-->
+                        </div>
                     </div>
                 </div>
             </div><!-- #tri-fold -->

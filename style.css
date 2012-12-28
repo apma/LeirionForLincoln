@@ -221,9 +221,9 @@ header#masthead hgroup{height:144px;}
     .home-tri-fold .tri-fold-content {clear: both;background: url(/wp-includes/images/rule-line.png) repeat-x top;margin-top: 14px;width: 280px;color: #323232;padding: 15px 0 0 0;}
     .home-tri-fold .tri-fold-content h2 { font-family: georgia, sans-serif;font-size: 18px;padding-bottom: 8px;font-weight: normal;font-style: italic;}
     .home-tri-fold .tri-fold-content p { font-size: 15px;padding-bottom: 8px;}
-    .home-tri-fold .tri-fold-content .quote { background: #fff;border: 1px solid #d2d1d1;padding: 20px;border-bottom: 0px none;}
-    .home-tri-fold .tri-fold-content .quote p { font-size: 18px;font-family: georgia, sans-serif;font-style: italic;}
-    .home-tri-fold .tri-fold-content .byline {background: url(/wp-includes/images/endorsement-arrow.png) no-repeat; font-size: 11px;padding:20px 15px 0 8px;text-align: right;}
+    .home-tri-fold .tri-fold-content #endorsement-block .endorsement .endorsement-quote { background: #fff;border: 1px solid #d2d1d1;padding: 20px;border-bottom: 0px none;}
+    .home-tri-fold .tri-fold-content #endorsement-block .endorsement .endorsement-quote p { font-size: 18px;font-family: georgia, sans-serif;font-style: italic;}
+    .home-tri-fold .tri-fold-content #endorsement-block .byline {background: url(/wp-includes/images/endorsement-arrow.png) no-repeat; font-size: 11px;padding:20px 15px 0 8px;text-align: right;}
 
 
 
@@ -259,3 +259,5 @@ span.footer-separator{ margin: 0 15px 0 15px;text-align: center;}
 #secondary #content #sidebar p.donate-text-italic{ font-family: georgia, sans-serif;font-size: 14px;line-height: 23px;color: #323232;margin-bottom: 8px;font-style: italic;}
 .donate-address-strong{ font-family: helvetica, sans-serif;font-weight: bold;font-size: 13px;line-height: 21px;color: #323232;margin-bottom: 4px;}
 .donate-address{font-family: helvetica, sans-serif;font-size: 13px;line-height: 21px;color: #323232;margin-bottom: 4px;}
+
+.current{ display: block;}
