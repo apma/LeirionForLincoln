@@ -146,10 +146,10 @@ a:visited, a:link, a:active { outline: none;text-decoration: none;color: #1b3768
 header#masthead hgroup{height:144px;}
 #logo{padding-top:25px;}
 #head_contrib{float:right;margin-top: 13px;}
-    #head_contrib input[type="submit"],#head_contrib input[type="email"] { border: none;padding: 0;}
-    #head_contrib p { font-family: helvetica, sans-serif;font-size: 14px;color: #5f7294;margin-top: 5px;}
-    .head_contrib_box{float: left;height: 30px;width: 190px;border: 0 none;background: url(/wp-includes/images/newsletter-email-field.png) no-repeat;}
-    .head_contrib_submit{float: right;display: inline-block; height: 30px;width: 60px;background: url(/wp-includes/images/button-newsletter-submit.png) no-repeat;text-indent: -9999px;}
+    #head_contrib input[type="submit"],#head_contrib input[type="email"] { border: none;padding: 0 0px 0 5px;}
+    #head_contrib p { font-family: helvetica, sans-serif;font-size: 14px;color: #5f7294;margin-top: 5px;text-align: right;}
+    .head_contrib_box{float: left;height: 30px;width: 185px;border: 0 none;background: url(/wp-includes/images/newsletter-email-field.png) no-repeat;}
+    .head_contrib_submit{float: left;display: inline-block; height: 30px;width: 60px;background: url(/wp-includes/images/button-newsletter-submit.png) no-repeat;text-indent: -9999px;}
 #head_social{ clear: right;float: right;width: 160px;margin-top: 20px;}
 #head_social .fb-like, #head_social .twitter-follow-button { float: left;margin-right: 5px;}
 

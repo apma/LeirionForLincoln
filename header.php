@@ -56,7 +56,7 @@
 	<header id="masthead" class="site-header" role="banner">
 		<hgroup>
             <div id="head_contrib">
-                <p>Join our campaign. Get email updates.</p>
+                <p>Get updates from Leirion.</p>
                 <div> 
                     <form id="form2" name="form2" class="wufoo topLabel page" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://leirion.wufoo.com/forms/m7x3q1/#public">
 

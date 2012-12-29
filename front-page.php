@@ -13,7 +13,9 @@ get_header(); ?>
                     <h1>Featured Video</h1>
                     <a class="headerbutton-tri-fold"><span>More Videos &raquo;</span></a>
                     <div class="clear-both"></div>
-                    <div class="tri-fold-content"><h2>Lorem ipsum dolor sit amet, </h2>consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi </div>
+                    <div class="tri-fold-content">
+                        <?php the_block('video'); ?>
+                    </div>
                 </div>
                 <div class="home-tri-fold">
                     <h1>Recent Post</h1>
@@ -38,7 +40,7 @@ get_header(); ?>
                     </div>
                 </div>
             </div><!-- #tri-fold -->
-            
+            <div class="clear-both"></div>
             
 			
 
