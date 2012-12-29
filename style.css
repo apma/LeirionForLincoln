@@ -221,6 +221,8 @@ header#masthead hgroup{height:144px;}
     .home-tri-fold .tri-fold-content {clear: both;background: url(/wp-includes/images/rule-line.png) repeat-x top;margin-top: 14px;width: 280px;color: #323232;padding: 15px 0 0 0;}
     .home-tri-fold .tri-fold-content h2 { font-family: georgia, sans-serif;font-size: 18px;padding-bottom: 8px;font-weight: normal;font-style: italic;}
     .home-tri-fold .tri-fold-content p { font-size: 15px;padding-bottom: 8px;}
+    .home-tri-fold .tri-fold-content #endorsement-block .endorsement{ display: none;}
+    .home-tri-fold .tri-fold-content #endorsement-block .endorsement.current{ display: block;}
     .home-tri-fold .tri-fold-content #endorsement-block .endorsement .endorsement-quote { background: #fff;border: 1px solid #d2d1d1;padding: 20px;border-bottom: 0px none;}
     .home-tri-fold .tri-fold-content #endorsement-block .endorsement .endorsement-quote p { font-size: 18px;font-family: georgia, sans-serif;font-style: italic;}
     .home-tri-fold .tri-fold-content #endorsement-block .byline {background: url(/wp-includes/images/endorsement-arrow.png) no-repeat; font-size: 11px;padding:20px 15px 0 8px;text-align: right;}
@@ -243,11 +245,11 @@ header#masthead hgroup{height:144px;}
 #connect-area #connect-content { margin: 50px 0 0 30px;}
 #connect-area #connect-content h2 {font-family: helvetica, sans-serif;font-size: 24px;color: #1b3768;font-weight: normal;}
 
-#colophon { background: url(/wp-includes/images/footer.png) repeat-x;height: 145px;font-family: helvetica, sans-serif;}
+#colophon { background: url(/wp-includes/images/footer.png) repeat-x;height: 145px;font-family: helvetica, sans-serif;border-left: 1px solid #e5e4e4;border-right: 1px solid #e5e4e4;}
 .social_media_box{ width: 280px;float: left;margin: 20px 30px 30px 0;}
 .social_media_box .fb-like-box { background: #fff;}
 .footer-logo{ background: url(/wp-includes/images/logo-footer.png) no-repeat;float: right;position: relative;right: 30px;top: 53px;width: 184px;height: 92px;}
-.site-info {position: relative;display: block; font-size: 12px;color: #1b3768;top: 67px; left:30px;width: 540px; /*arbitrary width extend for menu if needed*/}
+.site-info {position: relative;display: block; font-size: 12px;color: #1b3768;top: 67px; left:30px;width: 357px; /*arbitrary width extend for menu if needed*/}
 .footer-menu ul li { float: left;}
 .footer-legalese {display: block;color: #a6a7a7;font-size: 11px;margin: 10px 0 0 0px;}
 
@@ -260,4 +262,3 @@ span.footer-separator{ margin: 0 15px 0 15px;text-align: center;}
 .donate-address-strong{ font-family: helvetica, sans-serif;font-weight: bold;font-size: 13px;line-height: 21px;color: #323232;margin-bottom: 4px;}
 .donate-address{font-family: helvetica, sans-serif;font-size: 13px;line-height: 21px;color: #323232;margin-bottom: 4px;}
 
-.current{ display: block;}
