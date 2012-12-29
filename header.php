@@ -58,7 +58,23 @@
             <div id="head_contrib">
                 <p>Join our campaign. Get email updates.</p>
                 <div> 
-                    <input id="head_contrib_box" /><a href="#" class="head_contrib_submit" alt="Subscribe to our Newsletter"></a>
+                    <form id="form2" name="form2" class="wufoo topLabel page" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://leirion.wufoo.com/forms/m7x3q1/#public">
+
+
+
+                    <input id="Field1" name="Field1" type="email" spellcheck="false" class="field text medium head_contrib_box" value="" maxlength="255" tabindex="1" required /> 
+
+                    <ul style="display:none">
+                    <li class="hide">
+                    <label for="comment">Do Not Fill This Out</label>
+                    <textarea name="comment" id="comment" rows="1" cols="1"></textarea>
+                    <input type="hidden" id="idstamp" name="idstamp" value="TUs1t6I10HziTovcQLVkVtQz4tYpMZjywtlAI+x4GVE=" />
+                    </li>
+                    </ul>
+                    
+                    <input id="saveForm" name="saveForm" class="btTxt submit head_contrib_submit" type="submit" value="Submit" />
+                    </form> 
+                    
                 </div>
                 
             </div>
