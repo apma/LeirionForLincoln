@@ -30,7 +30,8 @@
         <div class="footer-logo"></div>
         
 		<div class="site-info">
-			<?php wp_nav_menu( array( 'theme_location' => 'footer-menu', 'menu_class' => 'footer-menu', 'menu_id' => 'footer-nav', 'link_after' => '<span class="footer-separator">|</span>') ); ?>
+            
+			<?php wp_nav_menu( array( 'theme_location' => 'footer-menu2', 'menu_class' => 'footer-menu', 'menu_id' => 'footer-nav', 'link_after' => '<span class="footer-separator">|</span>') ); ?>
             <br />
             <div class="footer-legalese">
             <p>&copy; <?php $the_year = date("Y"); echo $the_year; ?> Leirion Gaylor Baird for Lincoln City Council </p>

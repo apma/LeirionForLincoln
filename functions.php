@@ -13,7 +13,7 @@ if ( is_user_logged_in() ) {
 function register_my_menus() {
     register_nav_menus(
       array( 'social-media-menu' => __( 'Social Media Menu' ) ),
-      array( 'footer-menu' => __( 'Footer Menu' ) ),
+      array( 'footer-menu2' => __( 'Footer Menu' ) ),
       array( 'nav-menu' => __( 'Nav Menu' ) )
     );
 }
