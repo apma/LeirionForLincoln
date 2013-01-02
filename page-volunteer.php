@@ -38,7 +38,7 @@ get_header(); ?>
                 Email
             </label>
             <div>
-                <input id="Field3" name="Field3" watermark="Email" type="email" spellcheck="false" class="field text medium" value="" maxlength="255" tabindex="3" />
+                <input id="Field3" name="Field3" watermark="someone@email.com" type="email" spellcheck="false" class="field text medium" value="" maxlength="255" tabindex="3" />
             </div>
         </li>
         <li id="foli205" class="phone notranslate      ">
@@ -63,7 +63,7 @@ get_header(); ?>
         <li id="foli105" class="notranslate  twoColumns     ">
             <fieldset>
                 <![if !IE | (gte IE 8)]>
-                <legend id="title105" class="desc">Check All That Apply
+                <legend id="title105" class="desc">I am interested in the following volunteer opportunitites: <span style="font-weight:normal; float:none; margin:0; padding:0;color:#5f7294">(check all that apply)</span>
                 <span id="req_105" class="req">*</span>
                 </legend>
                 <![endif]>

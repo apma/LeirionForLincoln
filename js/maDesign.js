@@ -19,12 +19,12 @@ var watermarkInput = function() {
         
         $(this).blur(function () {
             if ($(this).val().length == 0) {
-                $(this).val(watermark).addClass('watermark');
+                $(this).val(displayText).addClass('watermark');
             }
         });
         
         $(this).focus(function () {
-            if ($(this).val() == watermark) {
+            if ($(this).val() == displayText) {
                 $(this).val('').removeClass('watermark');
             }
         });

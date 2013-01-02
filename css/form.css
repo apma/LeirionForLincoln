@@ -13,9 +13,9 @@
 {
     display: inline-block;
     clear: both;
-    margin: 0 0 5px 0;
+    margin: 0;
     padding: 0 1% 1.1em 1%;
-    border-bottom: 1px dotted #ccc;
+    
 }
 
     .info[class]
@@ -95,12 +95,12 @@
         display: inline-block;
     }
 
-    #form1 li div
+   /* #form1 li div
     {
         margin: 0;
         padding: 0;
         color: #444;
-    }
+    }*/
 
     #form1 li span
     {
