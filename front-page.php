@@ -21,7 +21,27 @@ get_header(); ?>
                     <h1>Recent Post</h1>
                     <a class="headerbutton-tri-fold"><span>More Blog Posts &raquo;</span></a>
                     <div class="clear-both"></div>
-                    <div class="tri-fold-content"><h2>liquip ex ea commodo consequat.</h2> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepte</div>
+                    <div class="tri-fold-content">
+                        
+                    <ul>
+                        <?php
+                        query_posts('category_Name = Blog&showposts=1'); // query to show all posts independant from what is in the center;
+                        if (have_posts()) :
+                            while (have_posts()) :
+                                the_post(); ?>
+                        <a href="<?php the_permalink() ?>" rel="bookmark"><h2><?php the_title(); ?></h2></a>
+                        <div class="home-timestamp"><?php the_time('F j, Y'); ?> at <?php the_time('g:i a'); ?></div>
+                        <?php the_excerpt('Read the rest of this entry &raquo;'); ?>
+                         <span class="blog-nav"><?php comments_number('Comments(%)' );?> </span>
+            <span class="blog-nav-divider">|</span>
+            <a href="<?php echo get_permalink(); ?>" class="blog-nav"> Continue Reading</a>
+                        <?php  endwhile;
+                        endif;
+                        wp_reset_query();
+                        ?>
+                        </ul>
+                            
+                    </div>
                 </div>
                 <div class="home-tri-fold">
                     <h1>Endorsements</h1>

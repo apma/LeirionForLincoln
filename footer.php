@@ -34,13 +34,13 @@
             <br />
             <div class="footer-legalese">
             <p>&copy; <?php $the_year = date("Y"); echo $the_year; ?> Leirion Gaylor Baird for Lincoln City Council </p>
-            <p style="border:1px solid #a6a7a7;margin-top:3px;padding:1px; display:block;">Paid for by Tracy Sanford. Treasurer. P.O. Box 23185, Lincoln, NE 68542</p></div>
+            <p style="border:1px solid #a6a7a7;margin-top:3px;padding:2px 4px 2px 4px; display:block;text-align: center;">Paid for by Tracy Sanford. Treasurer. P.O. Box 23185, Lincoln, NE 68542</p></div>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #wrapper -->
 
 <?php wp_footer(); ?>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script src="/wp-includes/js/maDesign.js"></script>
+<script src="/wp-content/themes/leirionforlincoln/js/maDesign.js"></script>
 </body>
 </html>

@@ -6,7 +6,7 @@
 get_header(); ?>
 
 	<div id="secondary" class="site-content">
-        <h2>About Leirion Gaylor Baird</h2>
+        <h1>About Leirion Gaylor Baird</h1>
 		<div id="content" role="main">
             <div id="main-content">
                 <?php the_block('main'); ?>

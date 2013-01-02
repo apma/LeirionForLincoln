@@ -1,19 +1,39 @@
 <?php
 /**
- * The main template file.
+ * The template for displaying all pages.
  */
 
 get_header(); ?>
 
-
-
-
-	<div id="primary" class="site-content">
+	<div id="secondary" class="site-content">
+        <h1>Blog</h1>
 		<div id="content" role="main">
+            <div id="main-content">
+             <?php if ( have_posts() ) : ?>
 
-Test
+			<?php /* Start the Loop */ ?>
+			<?php while ( have_posts() ) :
+                      the_post(); ?>
+				<?php get_template_part( 'content', get_post_format() ); ?>
+			<?php endwhile; ?>
+
+
+			
+
+			
+               
+            </div>
+            
+            <div id="sidebar">
+                <?php the_block('rightsidemain'); ?>
+                
+                
+            </div>
+	
+            <div class="clear-both"></div>
+
 		</div><!-- #content -->
-	</div><!-- #primary -->
+	</div><!-- #secondary -->
 
-<?php get_sidebar(); ?>
+
 <?php get_footer(); ?>

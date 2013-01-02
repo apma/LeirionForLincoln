@@ -8,6 +8,30 @@ var cycleEndorsement = function () {
         $next.addClass('current');
     })
 };
+ 
+var watermarkInput = function() {
+    //var watermark = 'Puts your email address';
+
+    //init, set watermark text and class
+    $('input[watermark]').each(function() {
+        var displayText = $(this).attr('watermark');
+        $(this).val(displayText).addClass('watermark');
+        
+        $(this).blur(function () {
+            if ($(this).val().length == 0) {
+                $(this).val(watermark).addClass('watermark');
+            }
+        });
+        
+        $(this).focus(function () {
+            if ($(this).val() == watermark) {
+                $(this).val('').removeClass('watermark');
+            }
+        });
+    });
+    
+   
+}
 
 $(document).ready(function () {
         // Set a random arrangement on page load to ensure unique initial display
@@ -33,5 +57,11 @@ $(document).ready(function () {
         
         cycleEndorsement();
     });
+    
+    if($('input[watermark]').length > 0) {
+        watermarkInput();
+    }
+    
+
 })
 

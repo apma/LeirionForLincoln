@@ -15,13 +15,49 @@
     <IncludeDebugInformation>false</IncludeDebugInformation>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="css\ie.css">
+    <Content Include="css\form.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="css\structure.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="css\theme.css">
       <SubType>Content</SubType>
     </Content>
     <Content Include="editor-style.css">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="css\ie.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="editor-styleXX.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\background-pattern.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\button-donate.jpg">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="images\button-gray.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\button-newsletter-submit.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\check-box-active.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\check-box.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\endorsement-arrow.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\favicon.ico">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\footer.png">
       <SubType>Content</SubType>
     </Content>
     <Content Include="images\homepage-photo-banner.jpg">
@@ -33,13 +69,46 @@
     <Content Include="images\LayoutA-secondary-background-repeat.jpg">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="images\logo-footer.png">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="images\logo-leirion-for-lincoln.png">
       <SubType>Content</SubType>
     </Content>
     <Content Include="images\navigation_sprite.jpg">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="images\navigation_sprite_1219.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\newsletter-email-field.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\photo-family.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\photo-planning-commission.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\photo-portrait.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\rule-line.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\shadow-divider-inverted.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\shadow-divider.png">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="images\social_media_sprite_1216.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\social_media_sprite_1219.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="js\maDesign.js">
       <SubType>Content</SubType>
     </Content>
     <Content Include="js\html5.js">
@@ -49,6 +118,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="js\theme-customizer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="js\wufoo1.js">
       <SubType>Content</SubType>
     </Content>
     <Content Include="style.css">
@@ -61,6 +133,24 @@
     <Folder Include="js\" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="comment-template.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="content.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="single.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="page-blog.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="page-volunteer.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="page-about.php">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="front-page.php">
       <SubType>Code</SubType>
     </Compile>
