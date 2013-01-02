@@ -14,7 +14,7 @@
     display: inline-block;
     clear: both;
     margin: 0;
-    padding: 0 1% 1.1em 1%;
+    padding: 0 ;
     
 }
 
@@ -54,7 +54,7 @@
 #form1 li
 {
     margin: 0;
-    padding: 6px 1% 9px 1%;
+    padding: 20px 0 20px 5px;
     clear: both;
     background-color: transparent;
     position: relative;
@@ -209,11 +209,11 @@ label.desc, legend.desc
     font-size: 95%;
     font-weight: bold;
     color: #222;
-    line-height: 150%;
+    line-height: normal;
     margin: 0;
-    padding: 0 0 3px 0;
+    padding: 0 0 10px 0;
     border: none;
-    display: block;
+    display:block;
     white-space: normal;
     width: 100%;
 }
@@ -404,9 +404,9 @@ span.symbol
 
 #form1 textarea.textarea
 {
-    width: 293px;
-    min-width: 100%;
-    max-width: 100%;
+    width: 517px;
+    /*min-width: 100%;
+    max-width: 100%;*/
 }
 
 #form1 textarea.small

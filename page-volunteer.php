@@ -100,14 +100,14 @@ get_header(); ?>
         <li id="foli206"
             class="notranslate      ">
             <label class="desc" id="title206" for="Field206">
-                Other suggestions...
+                Other Volunteer Opportunities
             </label>
 
             <div>
                 <textarea id="Field206"
                     name="Field206"
                     class="field textarea small"
-                    watermark=""
+                    watermark="Give us your suggestions!"
                     spellcheck="true"
                     rows="10" cols="50"
                     tabindex="12"
