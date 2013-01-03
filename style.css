@@ -137,7 +137,7 @@ img {
 }
 
 /* Clean links */
-a:visited, a:link, a:active { outline: none;text-decoration: none;color: #1b3768;}
+a:visited, a:link, a:active { outline: none;text-decoration: none;color: inherit;}
 /* Header */
 
 .homepage{background:url(/wp-content/themes/leirionforlincoln/images/LayoutA-background-repeat.jpg) repeat-x;}
@@ -156,52 +156,52 @@ header#masthead hgroup{height:144px;}
 
 /* Menu Nav */
 #site-navigation{clear:both;}
-.nav-menu ul li,.nav-menu ul li a:hover {float:left;background:url('/wp-content/themes/leirionforlincoln/images/navigation_sprite_1219.jpg');}
-.nav-menu ul li, .nav-menu ul li a{text-indent:-9999px;display: block;height:37px;}
-.nav-menu ul li.page-item-5, .nav-menu ul li.page-item-5 a {width:117px;background-position:0px 0px;}
-.nav-menu ul li.page-item-7,.nav-menu ul li.page-item-7 a{width:122px;background-position:-117px 0px;}
-.nav-menu ul li.page-item-9,.nav-menu ul li.page-item-9 a{width:116px;background-position:-239px 0px;}
-.nav-menu ul li.page-item-10,.nav-menu ul li.page-item-10 a{width:175px;background-position:-355px 0px;}
-.nav-menu ul li.page-item-12,.nav-menu ul li.page-item-12 a{width:136px;background-position:-530px 0px;}
+.menu-navmenu-container ul li,.menu-navmenu-container ul li a:hover {float:left;background:url('/wp-content/themes/leirionforlincoln/images/navigation_sprite_1219.jpg');}
+.menu-navmenu-container ul li, .menu-navmenu-container ul li a{text-indent:-9999px;display: block;height:37px;}
+.menu-navmenu-container ul li.menu-item-25, .menu-navmenu-container ul li.menu-item-25 a {width:117px;background-position:0px 0px;}
+.menu-navmenu-container ul li.menu-item-26,.menu-navmenu-container ul li.menu-item-26 a{width:122px;background-position:-117px 0px;}
+.menu-navmenu-container ul li.menu-item-27,.menu-navmenu-container ul li.menu-item-27 a{width:116px;background-position:-239px 0px;}
+.menu-navmenu-container ul li.menu-item-28,.menu-navmenu-container ul li.menu-item-28 a{width:175px;background-position:-355px 0px;}
+.menu-navmenu-container ul li.menu-item-29,.menu-navmenu-container ul li.menu-item-29 a{width:136px;background-position:-530px 0px;}
 
-.nav-menu ul li.page-item-5 a:hover {width:117px;background-position:0px -37px;}
-.nav-menu ul li.page-item-7 a:hover {width:122px;background-position:-117px -37px;}
-.nav-menu ul li.page-item-9 a:hover {width:116px;background-position:-239px -37px;}
-.nav-menu ul li.page-item-10 a:hover {width:175px;background-position:-355px -37px;}
-.nav-menu ul li.page-item-12 a:hover {width:136px;background-position:-530px -37px;}
+.menu-navmenu-container ul li.menu-item-25 a:hover {width:117px;background-position:0px -37px;}
+.menu-navmenu-container ul li.menu-item-26 a:hover {width:122px;background-position:-117px -37px;}
+.menu-navmenu-container ul li.menu-item-27 a:hover {width:116px;background-position:-239px -37px;}
+.menu-navmenu-container ul li.menu-item-28 a:hover {width:175px;background-position:-355px -37px;}
+.menu-navmenu-container ul li.menu-item-29 a:hover {width:136px;background-position:-530px -37px;}
 
-.nav-menu ul li.page-item-5.current_page_item  {width:117px;background-position:0px -74px;}
-.nav-menu ul li.page-item-7.current_page_item  {width:122px;background-position:-117px -74px;}
-.nav-menu ul li.page-item-9.current_page_item  {width:116px;background-position:-239px -74px;}
-.nav-menu ul li.page-item-10.current_page_item  {width:175px;background-position:-355px -74px;}
-.nav-menu ul li.page-item-12.current_page_item  {width:136px;background-position:-530px -74px;}
+.menu-navmenu-container ul li.menu-item-25.current_page_item  {width:117px;background-position:0px -74px;}
+.menu-navmenu-container ul li.menu-item-26.current_page_item  {width:122px;background-position:-117px -74px;}
+.menu-navmenu-container ul li.menu-item-27.current_page_item  {width:116px;background-position:-239px -74px;}
+.menu-navmenu-container ul li.menu-item-28.current_page_item  {width:175px;background-position:-355px -74px;}
+.menu-navmenu-container ul li.menu-item-29.current_page_item  {width:136px;background-position:-530px -74px;}
 
 /* Social Media Menu */
-.menu-social-media-menu-container{float:right;border-right: 1px solid #94b1bb;height: 37px;}
-.menu-social-media-menu-container ul li,.menu-social-media-menu-container ul li a:hover {
+.menu-socialmediamenu-container{float:right;border-right: 1px solid #94b1bb;height: 37px;}
+.menu-socialmediamenu-container ul li,.menu-socialmediamenu-container ul li a:hover {
     float:left;background:url('/wp-content/themes/leirionforlincoln/images/social_media_sprite_1219.png');
 }
-.menu-social-media-menu-container ul li, .menu-social-media-menu-container ul li a, .menu-social-media-menu-container ul li a:hover
+.menu-socialmediamenu-container ul li, .menu-socialmediamenu-container ul li a, .menu-socialmediamenu-container ul li a:hover
 {
     text-indent:-9999px;display: block;height:26px;width:25px;
 }
 
-.menu-social-media-menu-container ul li{margin:6px 7px 0 0;}
-.menu-social-media-menu-container ul li.menu-item-20, 
-    .menu-social-media-menu-container ul li.menu-item-20 a {background-position:0px 0px;}
-    .menu-social-media-menu-container ul li.menu-item-20 a:hover {background-position:0px -26px;}
-.menu-social-media-menu-container ul li.menu-item-21, 
-    .menu-social-media-menu-container ul li.menu-item-21 a {background-position:-25px 0px;}
-    .menu-social-media-menu-container ul li.menu-item-21 a:hover {background-position:-25px -26px;}
-.menu-social-media-menu-container ul li.menu-item-22, 
-    .menu-social-media-menu-container ul li.menu-item-22 a {background-position:-50px 0px;}
-    .menu-social-media-menu-container ul li.menu-item-22 a:hover {background-position:-50px -26px;}
-.menu-social-media-menu-container ul li.menu-item-23, 
-    .menu-social-media-menu-container ul li.menu-item-23 a {background-position:-75px 0px;}
-    .menu-social-media-menu-container ul li.menu-item-23 a:hover {background-position:-75px -26px;}
-.menu-social-media-menu-container ul li.menu-item-24, 
-    .menu-social-media-menu-container ul li.menu-item-24 a {background-position:-100px 0px;}
-    .menu-social-media-menu-container ul li.menu-item-24 a:hover {background-position:-100px -26px;}
+.menu-socialmediamenu-container ul li{margin:6px 7px 0 0;}
+.menu-socialmediamenu-container ul li.menu-item-20, 
+    .menu-socialmediamenu-container ul li.menu-item-20 a {background-position:0px 0px;}
+    .menu-socialmediamenu-container ul li.menu-item-20 a:hover {background-position:0px -26px;}
+.menu-socialmediamenu-container ul li.menu-item-21, 
+    .menu-socialmediamenu-container ul li.menu-item-21 a {background-position:-25px 0px;}
+    .menu-socialmediamenu-container ul li.menu-item-21 a:hover {background-position:-25px -26px;}
+.menu-socialmediamenu-container ul li.menu-item-22, 
+    .menu-socialmediamenu-container ul li.menu-item-22 a {background-position:-50px 0px;}
+    .menu-socialmediamenu-container ul li.menu-item-22 a:hover {background-position:-50px -26px;}
+.menu-socialmediamenu-container ul li.menu-item-23, 
+    .menu-socialmediamenu-container ul li.menu-item-23 a {background-position:-75px 0px;}
+    .menu-socialmediamenu-container ul li.menu-item-23 a:hover {background-position:-75px -26px;}
+.menu-socialmediamenu-container ul li.menu-item-24, 
+    .menu-socialmediamenu-container ul li.menu-item-24 a {background-position:-100px 0px;}
+    .menu-socialmediamenu-container ul li.menu-item-24 a:hover {background-position:-100px -26px;}
 
 /* FrontPage Body */
 #primary #content
@@ -243,12 +243,12 @@ header#masthead hgroup{height:144px;}
 #secondary #content #sidebar p{ font-family: georgia, sans-serif;font-size: 14px;line-height: 23px;color: #323232;margin-bottom: 8px;font-style: italic;}
 #secondary #content #sidebar address {font-family: helvetica, sans-serif;font-size: 13px;line-height: 21px;color: #323232;margin-bottom: 4px;font-style: normal;}
 .blog-timestamp{font-family: georgia, sans-serif;font-size: 14px;line-height: 20px;color: #a1a0a0;margin-bottom: 12px;font-style: italic;}
-.blog-nav{font-family: georgia, sans-serif;font-size: 15px;line-height: 23px;color: #51941d;margin-top: 8px;font-style: italic;}
+.blog-nav, a.blog-nav{font-family: georgia, sans-serif;font-size: 15px;line-height: 23px;color: #51941d;margin-top: 8px;font-style: italic;}
 .blog-nav-divider{font-family: georgia, sans-serif;font-size: 15px;line-height: 23px;color: #323232;margin-top: 8px;font-style: italic;}
 .blog-meta {}
 img.donate-button{display: inline-block; height: 35px;width: 126px;background: url(/wp-content/themes/leirionforlincoln/images/submit-button-sprite.jpg) no-repeat 0 0;text-indent: -9999px;}
 img.donate-button:hover{display: inline-block; height: 35px;width: 126px;background: url(/wp-content/themes/leirionforlincoln/images/submit-button-sprite.jpg) no-repeat 0 -35px;text-indent: -9999px;}
-
+.post{ border-bottom: 1px solid #d2d1d1;padding-bottom: 50px;}
 
 /* Footer */
 #connect-area { min-height: 300px; border-left: 1px #e5e4e4 solid;border-right: 1px #e5e4e4 solid;background: url(/wp-content/themes/leirionforlincoln/images/background-pattern.png) repeat;}
@@ -259,25 +259,29 @@ img.donate-button:hover{display: inline-block; height: 35px;width: 126px;backgro
 .social_media_box{ width: 280px;float: left;margin: 20px 30px 30px 0;}
 .social_media_box .fb-like-box { background: #fff;}
 .footer-logo{ background: url(/wp-content/themes/leirionforlincoln/images/logo-footer.png) no-repeat;float: right;position: relative;right: 30px;top: 53px;width: 184px;height: 92px;}
-.site-info {position: relative;display: block; font-size: 12px;color: #1b3768;top: 55px; left:30px;width: 390px; /*arbitrary width extend for menu if needed*/}
-.footer-menu ul li { float: left;}
+.site-info {position: relative;display: block; font-size: 12px;color: #1b3768;top: 55px; left:30px;width: 500px; /*arbitrary width extend for menu if needed*/}
+.menu-footermenu-container ul li { float: left;}
+.menu-footermenu-container ul li:nth-child(5){ color: #487e1e;}
+.menu-footermenu-container ul li:nth-child(n+6){ color: #a6a7a7;}
 .footer-legalese {display: block;color: #a6a7a7;font-size: 11px;margin: 10px 0 0 0px;}
 
 /* Miscellaneous */
 .shadowline{width: 100%;height: 6px;background: url(/wp-content/themes/leirionforlincoln/images/shadow-divider.png) repeat-x;}
 .shadowline-invert{width: 100%;height: 6px;background: url(/wp-content/themes/leirionforlincoln/images/shadow-divider-inverted.png) repeat-x;}
 span.footer-separator{ margin: 0 15px 0 15px;text-align: center;}
+.menu-item-last span.footer-separator{display: none;}
 
 /* Forms */
-#form1 label { font-family: Helvetica, sans-serif;color: #5f7294;font-size: 15px;font-weight: bold;}
-#form1 ul li span label[for=Field1],#form1 ul li span label[for=Field2],#form1 ul li span label[for=Field205],#form1 ul li span label[for=Field205-1],#form1 ul li span label[for=Field205-2] { display: none;}
+#form1 label,#form3 label { font-family: Helvetica, sans-serif;color: #5f7294;font-size: 15px;font-weight: bold;}
+#form1 ul li span label[for=Field1],#form1 ul li span label[for=Field2],#form1 ul li span label[for=Field205],#form1 ul li span label[for=Field205-1],#form1 ul li span label[for=Field205-2],
+#form3 ul li span label[for=Field1],#form3 ul li span label[for=Field2],#form3 ul li span label[for=Field205] { display: none;}
 #form1 input,#form1 textarea {border:1px solid #aab1b9;background:#fcfcfc;text-indent: 6px;   -moz-box-shadow:    inset 0 0 2px #000000;
    -webkit-box-shadow: inset 0 0 2px #000000;
    box-shadow:         inset 0 0 2px #000000;}
-#form1 input.watermark{font-family: helvetica, san-serif;font-size: 13px;color: #a0a0a0;}
-#form1 input#Field1,#form1 input#Field2 {width:250px;height: 40px;margin-right: 17px;}
-#form1 input#Field3 {width:300px;height: 40px;margin-right: 17px;}
-#form1 input#Field205,#form1 input#Field205-1,#form1 input#Field205-2 { margin: 0;height: 40px;}
+#form1 input.watermark,#form3 input.watermark{font-family: helvetica, san-serif;font-size: 13px;color: #a0a0a0;}
+#form1 input#Field1,#form1 input#Field2,#form3 input#Field1,#form3 input#Field2 {width:250px;height: 40px;margin-right: 17px;}
+#form1 input#Field3,#form3 input#Field3 {width:300px;height: 40px;margin-right: 17px;}
+#form1 input#Field205,#form1 input#Field205-1,#form1 input#Field205-2,#form3 input#Field4,#form3 input#Field4-1,#form3 input#Field4-2 { margin: 0;height: 40px;}
 #form1 input[type="checkbox"]{ display: block;margin: 4px 0 0 0;padding: 0;width: 15px;height: 17px;float: left;}
 /*input[type=checkbox]:before { content:""; display:inline-block; width:15px; height:17px;background: url(/wp-content/themes/leirionforlincoln/images/check-box.png) no-repeat #fff;}
 input[type=checkbox]:checked:before { background:url(/wp-content/themes/leirionforlincoln/images/check-box-active.png) no-repeat; }*/
@@ -285,23 +289,19 @@ span:not(#foo) > input[type=checkbox] { opacity: 0;}
 span:not(#foo) > input[type=checkbox] + label {
     background: url(/wp-content/themes/leirionforlincoln/images/check-box.png) no-repeat 0 1px;
     height: 17px;
-   
-    
 }
 span:not(#foo) > input[type=checkbox]:checked + label {
     background: url(/wp-content/themes/leirionforlincoln/images/check-box-active.png) no-repeat 0 1px;
     height: 17px;
-    
-    
 }
 #form1 #foli3,#form1 #foli205 { float: left;clear: none;}
 span.symbol { line-height: 225%;}
 #form1 #foli105 div span { width: 50%;}
 #form1 #foli105 div label, #form1 #foli105 span label { clear: none;}
 #form1 #foli105 label {font-family: helvetica, san-serif;font-size: 15px;color: #323232;line-height: 23px;font-weight: normal;padding: 0 0 0 20px;}
-#form1 legend.desc { font-family: Helvetica, sans-serif;color: #5f7294;font-size: 15px;font-weight: bold;}
-#form1 ul li.buttons input#saveForm{display: inline-block; height: 35px;width: 126px;background: url(/wp-content/themes/leirionforlincoln/images/submit-button-sprite.jpg) no-repeat 0 0;text-indent: -9999px;}
-#form1 ul li.buttons input#saveForm:hover{display: inline-block; height: 35px;width: 126px;background: url(/wp-content/themes/leirionforlincoln/images/submit-button-sprite.jpg) no-repeat 0 -35px;text-indent: -9999px;}
+#form1 legend.desc,#form3 legend.desc { font-family: Helvetica, sans-serif;color: #5f7294;font-size: 15px;font-weight: bold;}
+#form1 ul li.buttons input#saveForm,#form3 ul li.buttons input#saveForm{display: inline-block; height: 35px;width: 126px;background: url(/wp-content/themes/leirionforlincoln/images/submit-button-sprite.jpg) no-repeat 0 0;text-indent: -9999px;}
+#form1 ul li.buttons input#saveForm:hover,#form3 ul li.buttons input#saveForm:hover{display: inline-block; height: 35px;width: 126px;background: url(/wp-content/themes/leirionforlincoln/images/submit-button-sprite.jpg) no-repeat 0 -35px;text-indent: -9999px;}
 
 /* Wufoo copy */
 .wufoo li.focused label.desc, .wufoo li.focused legend.desc,

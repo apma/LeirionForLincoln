@@ -7,7 +7,7 @@ get_header(); ?>
         
       
 	<div id="secondary" class="site-content">
-        <h1><?php the_title();  ?></h1>
+        <h1>Volunteer to Help</h1>
 		<div id="content" role="main">
             <div id="main-content">
               <form id="form1" name="form1" class="wufoo topLabel page" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://leirion.wufoo.com/forms/z7x3p9/#public">

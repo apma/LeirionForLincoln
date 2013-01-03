@@ -1,8 +1,4 @@
-<?php
-/**
- * The template for displaying the footer.
- */
-?>
+
     <div id="connect-area">
         <div class="shadowline"></div>
         <div id="connect-content">
@@ -31,7 +27,7 @@
         
 		<div class="site-info">
             
-			<?php wp_nav_menu( array( 'theme_location' => 'footer-menu2', 'menu_class' => 'footer-menu', 'menu_id' => 'footer-nav', 'link_after' => '<span class="footer-separator">|</span>') ); ?>
+			<?php wp_nav_menu( array( 'theme_location' => 'footermenu', 'menu_class' => 'footer-menu', 'menu_id' => 'footer-nav', 'link_after' => '<span class="footer-separator">|</span>') ); ?>
             <br />
             <div class="footer-legalese">
             <p>&copy; <?php $the_year = date("Y"); echo $the_year; ?> Leirion Gaylor Baird for Lincoln City Council </p>
@@ -41,7 +37,29 @@
 </div><!-- #wrapper -->
 
 <?php wp_footer(); ?>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-18999784-7']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script src="/wp-content/themes/leirionforlincoln/js/maDesign.js"></script>
+
 </body>
 </html>

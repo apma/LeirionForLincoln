@@ -8,16 +8,25 @@
 if ( is_user_logged_in() ) {
     add_filter( 'show_admin_bar', '__return_true' );
 }
-
+add_action( 'init', 'register_my_menus' );
 /* Menus */
 function register_my_menus() {
     register_nav_menus(
-      array( 'social-media-menu' => __( 'Social Media Menu' ) ),
-      array( 'footer-menu2' => __( 'Footer Menu' ) ),
-      array( 'nav-menu' => __( 'Nav Menu' ) )
+      array( 
+      'socialmediamenu' => __( 'SocialMediaMenu' ) ,
+      'footermenu' => __( 'FooterMenu' ) ,
+      'navmenu' => __( 'NavMenu' )
+      )
     );
 }
-add_action( 'init', 'register_my_menus' );
+function nav_menu_first_last( $items ) {
+    $position = strrpos($items, 'class="menu-item', -1);
+    $items=substr_replace($items, 'menu-item-last ', $position+7, 0);
+    $position = strpos($items, 'class="menu-item');
+    $items=substr_replace($items, 'menu-item-first ', $position+7, 0);
+    return $items;
+}
+add_filter( 'wp_nav_menu_items', 'nav_menu_first_last' );
 
 if ( ! function_exists( 'leirion_comment' ) ) :
     /**
