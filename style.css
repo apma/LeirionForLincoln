@@ -147,7 +147,7 @@ header#masthead hgroup{height:144px;}
 #logo{padding-top:25px;}
 #head_contrib{float:right;margin-top: 13px;}
     #head_contrib input[type="submit"],#head_contrib input[type="email"] { border: none;padding: 0 0px 0 5px;}
-    #head_contrib p { font-family: helvetica, sans-serif;font-size: 14px;color: #5f7294;margin-top: 5px;text-align: right;}
+    #head_contrib p { font-family: helvetica, sans-serif;font-size: 14px;color: #5f7294;margin: 5px 0 5px 0;text-align: right;}
     .head_contrib_box{float: left;height: 30px;width: 185px;border: 0 none;background: url(/wp-content/themes/leirionforlincoln/images/newsletter-email-field.png) no-repeat;}
     .head_contrib_submit{float: left;display: inline-block; height: 30px;width: 60px;background: url(/wp-content/themes/leirionforlincoln/images/button-newsletter-submit.png) no-repeat;text-indent: -9999px;}
 #head_social{ clear: right;float: right;width: 160px;margin-top: 20px;}
@@ -177,7 +177,7 @@ header#masthead hgroup{height:144px;}
 .menu-navmenu-container ul li.menu-item-29.current_page_item  {width:136px;background-position:-530px -74px;}
 
 /* Social Media Menu */
-.menu-socialmediamenu-container{float:right;border-right: 1px solid #94b1bb;height: 37px;}
+.menu-socialmediamenu-container{float:right;border-right: 1px solid #94b1bb;height: 37px;padding-right: 15px;}
 .menu-socialmediamenu-container ul li,.menu-socialmediamenu-container ul li a:hover {
     float:left;background:url('/wp-content/themes/leirionforlincoln/images/social_media_sprite_1219.png');
 }
@@ -216,8 +216,10 @@ header#masthead hgroup{height:144px;}
     .home-tri-fold{ width: 280px;margin-left: 30px;min-height: 100px;float: left;}
     .home-tri-fold .tri-fold-container { display:block}
     .home-tri-fold h1 {float: left;font-family: helvetica, sans-serif;font-size: 24px;color: #1b3768;font-weight: normal;}
-    .home-tri-fold .headerbutton-tri-fold{float: right;background: url(/wp-content/themes/leirionforlincoln/images/button-gray.jpg) repeat-x;font-family: helvetica, sans-serif;
-                                          color: #656565;font-size: 11px;height: 18px;border: 1px #c8c8c8 solid;cursor: pointer;margin-top: 7px;}
+    .home-tri-fold .headerbutton-tri-fold{float: right;background: url(/wp-content/themes/leirionforlincoln/images/button-gray-sprite.jpg) repeat-x 0 0;font-family: helvetica, sans-serif;
+                                          color: #656565;font-size: 11px;height: 18px;border: 1px #c8c8c8 solid;cursor: pointer;}
+       .home-tri-fold .headerbutton-tri-fold:hover{float: right;background: url(/wp-content/themes/leirionforlincoln/images/button-gray-sprite.jpg) repeat-x 0 -18px;font-family: helvetica, sans-serif;
+                                          color: #656565;font-size: 11px;height: 18px;border: 1px #c8c8c8 solid;cursor: pointer;}
     .home-tri-fold .headerbutton-tri-fold span {display: block; margin-top: 3px;text-align: center;padding: 0 5px 0 5px;}
     .home-tri-fold .tri-fold-content {clear: both;background: url(/wp-content/themes/leirionforlincoln/images/rule-line.png) repeat-x top;margin-top: 14px;width: 280px;color: #323232;padding: 15px 0 0 0;}
     .home-tri-fold .tri-fold-content h2 { font-family: georgia, sans-serif;font-size: 18px;padding-bottom: 8px;font-weight: normal;font-style: italic;}
@@ -235,13 +237,14 @@ header#masthead hgroup{height:144px;}
 #secondary{ margin-top: 80px;}
 #secondary h1 { font-family: georgia, sans-serif;font-style: italic;color: #51941d;font-size: 40px;font-weight: normal;margin: 0 0 20px 30px;}
 #secondary #content { border: 1px #e5e4e4 solid;background: #fff;}
+#secondary #content h2{ color: #1b3768;font-family: helvetica, sans-serif;font-size: 22px;margin-bottom: 8px;font-style: normal;margin-left: 0px;}
 #secondary #content #main-content {float: left;width: 600px;margin: 40px 0 30px 30px;}
 #secondary #content #main-content img, #secondary #content #sidebar img {border:1px solid #d6d7d7;}
 #secondary #content #main-content p, #form1 header { font-family: helvetica, sans-serif;font-size: 15px;line-height: 23px;color: #323232;margin-bottom: 12px;}
 #secondary #content #sidebar {float: right; width: 280px;margin: 40px 30px 30px 0;}
-#secondary #content h2, #secondary #content #sidebar h2 { color: #1b3768;font-family: helvetica, sans-serif;font-size: 22px;margin-bottom: 8px;font-style: normal;margin-left: 0px;}
+#secondary #content #sidebar h2 { color: #1b3768;font-family: helvetica, sans-serif;font-size: 22px;margin-bottom: 8px;font-style: normal;margin-left: 0px;font-weight: normal;}
 #secondary #content #sidebar p{ font-family: georgia, sans-serif;font-size: 14px;line-height: 23px;color: #323232;margin-bottom: 8px;font-style: italic;}
-#secondary #content #sidebar address {font-family: helvetica, sans-serif;font-size: 13px;line-height: 21px;color: #323232;margin-bottom: 4px;font-style: normal;}
+#secondary #content #sidebar address,#secondary #content #sidebar address p , #secondary #content #main-content address {font-family: helvetica, sans-serif;font-size: 13px;line-height: 17px;color: #323232;margin-bottom: 4px;font-style: normal;}
 .blog-timestamp{font-family: georgia, sans-serif;font-size: 14px;line-height: 20px;color: #a1a0a0;margin-bottom: 12px;font-style: italic;}
 .blog-nav, a.blog-nav{font-family: georgia, sans-serif;font-size: 15px;line-height: 23px;color: #51941d;margin-top: 8px;font-style: italic;}
 .blog-nav-divider{font-family: georgia, sans-serif;font-size: 15px;line-height: 23px;color: #323232;margin-top: 8px;font-style: italic;}
@@ -264,20 +267,24 @@ img.donate-button:hover{display: inline-block; height: 35px;width: 126px;backgro
 .menu-footermenu-container ul li:nth-child(5){ color: #487e1e;}
 .menu-footermenu-container ul li:nth-child(n+6){ color: #a6a7a7;}
 .footer-legalese {display: block;color: #a6a7a7;font-size: 11px;margin: 10px 0 0 0px;}
+.footer-legalese p.border {border:1px solid #a6a7a7;margin-top:3px;padding:2px 4px 2px 4px; display:inline-block;text-align: center;width: 400px;}
 
 /* Miscellaneous */
 .shadowline{width: 100%;height: 6px;background: url(/wp-content/themes/leirionforlincoln/images/shadow-divider.png) repeat-x;}
 .shadowline-invert{width: 100%;height: 6px;background: url(/wp-content/themes/leirionforlincoln/images/shadow-divider-inverted.png) repeat-x;}
-span.footer-separator{ margin: 0 15px 0 15px;text-align: center;}
+span.footer-separator{ margin: 0 15px 0 15px;text-align: center;color:#b4c2da}
 .menu-item-last span.footer-separator{display: none;}
-
+.bluebox{ background: #e1f1f8;border: 1px solid #94b1bb;padding: 20px;margin-top: 13px;}
+.bluebox h3{font-family: helvetica, sans-serif;font-size: 15px;line-height: 23px;color: #323232;margin-bottom: 8px;font-weight: bold;}
+.bluebox ol { font-style: italic;font-weight: bold;list-style-type: decimal;margin-left: 20px;}
+.bluebox li{ font-family: Georgia, sans-serif;font-style: italic;font-size: 15px;line-height: 23px;color: #323232;margin-bottom: 8px;}
+.bluebox strong{ font-family: helvetica, sans-serif;font-size: 15px;line-height: 23px;color: #323232;margin-bottom: 12px;font-weight: bold;}
+.bluebox .oltext { font-weight: normal;}
 /* Forms */
 #form1 label,#form3 label { font-family: Helvetica, sans-serif;color: #5f7294;font-size: 15px;font-weight: bold;}
 #form1 ul li span label[for=Field1],#form1 ul li span label[for=Field2],#form1 ul li span label[for=Field205],#form1 ul li span label[for=Field205-1],#form1 ul li span label[for=Field205-2],
-#form3 ul li span label[for=Field1],#form3 ul li span label[for=Field2],#form3 ul li span label[for=Field205] { display: none;}
-#form1 input,#form1 textarea {border:1px solid #aab1b9;background:#fcfcfc;text-indent: 6px;   -moz-box-shadow:    inset 0 0 2px #000000;
-   -webkit-box-shadow: inset 0 0 2px #000000;
-   box-shadow:         inset 0 0 2px #000000;}
+#form3 ul li span label[for=Field1],#form3 ul li span label[for=Field2],#form3 ul li span label[for=Field4],#form3 ul li span label[for=Field4-1],#form3 ul li span label[for=Field4-2] { display: none;}
+#form1 input,#form1 textarea,#form3 input,#form3 textarea {background:#fcfcfc;text-indent: 6px;  }
 #form1 input.watermark,#form3 input.watermark{font-family: helvetica, san-serif;font-size: 13px;color: #a0a0a0;}
 #form1 input#Field1,#form1 input#Field2,#form3 input#Field1,#form3 input#Field2 {width:250px;height: 40px;margin-right: 17px;}
 #form1 input#Field3,#form3 input#Field3 {width:300px;height: 40px;margin-right: 17px;}
@@ -294,15 +301,24 @@ span:not(#foo) > input[type=checkbox]:checked + label {
     background: url(/wp-content/themes/leirionforlincoln/images/check-box-active.png) no-repeat 0 1px;
     height: 17px;
 }
-#form1 #foli3,#form1 #foli205 { float: left;clear: none;}
+#form1 #foli3,#form1 #foli205,#form3 #foli3,#form3 #foli4 { float: left;clear: none;}
 span.symbol { line-height: 225%;}
 #form1 #foli105 div span { width: 50%;}
 #form1 #foli105 div label, #form1 #foli105 span label { clear: none;}
 #form1 #foli105 label {font-family: helvetica, san-serif;font-size: 15px;color: #323232;line-height: 23px;font-weight: normal;padding: 0 0 0 20px;}
 #form1 legend.desc,#form3 legend.desc { font-family: Helvetica, sans-serif;color: #5f7294;font-size: 15px;font-weight: bold;}
-#form1 ul li.buttons input#saveForm,#form3 ul li.buttons input#saveForm{display: inline-block; height: 35px;width: 126px;background: url(/wp-content/themes/leirionforlincoln/images/submit-button-sprite.jpg) no-repeat 0 0;text-indent: -9999px;}
-#form1 ul li.buttons input#saveForm:hover,#form3 ul li.buttons input#saveForm:hover{display: inline-block; height: 35px;width: 126px;background: url(/wp-content/themes/leirionforlincoln/images/submit-button-sprite.jpg) no-repeat 0 -35px;text-indent: -9999px;}
+#form1 ul li.buttons input#saveForm,#form3 ul li.buttons input#saveForm, #comment-form p input#submit{display: inline-block; height: 35px;width: 126px;background: url(/wp-content/themes/leirionforlincoln/images/submit-button-sprite.jpg) no-repeat 0 0;text-indent: -9999px;}
+#form1 ul li.buttons input#saveForm:hover,#form3 ul li.buttons input#saveForm:hover, #comment-form p input#submit:hover{display: inline-block; height: 35px;width: 126px;background: url(/wp-content/themes/leirionforlincoln/images/submit-button-sprite.jpg) no-repeat 0 -35px;text-indent: -9999px;}
 
+#comments{ font-family: helvetica, sans-serif;font-size: 15px;margin: 5px 0 5px 0;}
+.comment-body{ margin: 2px 0 0 7px;font-size: 12px;}
+#secondary #content #main-content p .comment-body p{ color: #5f7294;font-size: 12px;}
+.comment-author img{ float: left; }
+.comment-author .fn,.comment-author .says{ margin: 2px 0 0 5px;}
+.comment-meta{ font-family: georgia, sans-serif;font-size: 11px;color: #323232;margin: 5px 0 5px 5px;}
+.comment-edit-link{ font-family: helvetica, sans-serif;color: #1b3768;}
+.reply{font-family: helvetica, sans-serif;color: #1b3768;font-size: 12px;margin: 0 0 10px 5px;}
+#respond h3{ font-family: Georgia, sans-serif;color: #51941d;font-size: 14px;}
 /* Wufoo copy */
 .wufoo li.focused label.desc, .wufoo li.focused legend.desc,
 .wufoo li.focused div, .wufoo li.focused span, .wufoo li.focused div label, .wufoo li.focused span label,

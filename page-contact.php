@@ -12,10 +12,10 @@ get_header(); ?>
                 <form id="form3" name="form3" class="wufoo topLabel page" autocomplete="off" enctype="multipart/form-data" method="post" novalidate
         action="https://leirion.wufoo.com/forms/q7x2x3/#public">
 
-        <header id="header" class="info">
-            <h2>Contact form</h2>
-            <div>Contact Leirion</div>
-        </header>
+        <p>
+        Thank you for you interest. Use the form below to get in touch with us. We'll get back to you as soon as we can.
+        </p>
+        
 
         <ul>
 
@@ -24,11 +24,11 @@ get_header(); ?>
                     Name
                 </label>
                 <span>
-                    <input id="Field1" name="Field1" type="text" class="field text fn" value="" size="8" tabindex="1" />
+                    <input id="Field1" name="Field1"  watermark="First" type="text" class="field text fn" value="" size="8" tabindex="1" />
                     <label for="Field1">First</label>
                 </span>
                 <span>
-                    <input id="Field2" name="Field2" type="text" class="field text ln" value="" size="14" tabindex="2" />
+                    <input id="Field2" name="Field2"  watermark="Last" type="text" class="field text ln" value="" size="14" tabindex="2" />
                     <label for="Field2">Last</label>
                 </span>
             </li>
@@ -37,7 +37,7 @@ get_header(); ?>
                     Email
                 </label>
                 <div>
-                    <input id="Field3" name="Field3" type="email" spellcheck="false" class="field text medium" value="" maxlength="255" tabindex="3" />
+                    <input id="Field3" name="Field3" watermark="Email" type="email" spellcheck="false" class="field text medium" value="" maxlength="255" tabindex="3" />
                 </div>
             </li>
             <li id="foli4" class="phone notranslate      ">
@@ -62,7 +62,7 @@ get_header(); ?>
             <li id="foli5"
                 class="notranslate      ">
                 <label class="desc" id="title5" for="Field5">
-                    Untitled
+                    Comment or Question
                 </label>
 
                 <div>

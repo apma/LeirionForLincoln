@@ -17,11 +17,14 @@
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <meta name="viewport" content="width=device-width" />
-<title><?php wp_title( '|', true, 'right' ); ?></title>
+<title><?php bloginfo('name'); ?> <?php wp_title( ' - ', true, 'left' ); ?></title>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/form.css" />
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css" />
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+
+<link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon"/>
+<link rel="icon" href="/favicon.ico" type="image/x-ico"/>
 <?php // Loads HTML5 JavaScript file to add support for HTML5 elements in older IE versions. ?>
 <!--[if lt IE 9]>
 <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
