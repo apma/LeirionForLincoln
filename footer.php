@@ -14,7 +14,24 @@
 
             </div>
             <div class="social_media_box">
-                
+                    <div class="social_containers">
+                        <h3>Contact Our Campaign</h3>
+                        <a class="footerbutton"><span>Go &raquo;</span></a>
+                    </div>            
+                    
+                    <div class="social_containers">
+                        <h3>Youtube</h3>
+                        <div><iframe width="112" height="63" src="http://www.youtube.com/embed/kNZMeWu6f88" frameborder="0" allowfullscreen></iframe></div>
+                        <div class="goto">Go to <a href="http://www.youtube.com/channel/UCpe25KXOg4TKfGCEx9qhJsQ">leirion4lincoln's youtube channel</a></div>
+                    </div>            
+                    
+                    <div class="social_containers">
+                        <h3>Flickr</h3>
+                        <div class="goto">Go to <a href="http://www.flickr.com/photos/90833355@N06/">leirion4lincoln's photostream</a></div>
+                    </div>            
+            
+            
+            
             </div>
             <div class="clear-both"></div>
         </div>
