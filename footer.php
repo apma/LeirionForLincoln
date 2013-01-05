@@ -20,7 +20,7 @@
                     </div>            
                     
                     <div class="social_containers">
-                        <h3>Youtube</h3>
+                        <h3>YouTube</h3>
                         <div><iframe width="112" height="63" src="http://www.youtube.com/embed/kNZMeWu6f88" frameborder="0" allowfullscreen></iframe></div>
                         <div class="goto">Go to <a href="http://www.youtube.com/channel/UCpe25KXOg4TKfGCEx9qhJsQ">leirion4lincoln's youtube channel</a></div>
                     </div>            

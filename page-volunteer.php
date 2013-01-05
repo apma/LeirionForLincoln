@@ -107,7 +107,7 @@ get_header(); ?>
                 <textarea id="Field206"
                     name="Field206"
                     class="field textarea small"
-                    watermark="Give us your suggestions!"
+                    watermark="Make a suggestion."
                     spellcheck="true"
                     rows="10" cols="50"
                     tabindex="12"

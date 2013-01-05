@@ -9,11 +9,11 @@ var cycleEndorsement = function () {
     })
 };
  
-var watermarkInput = function() {
+var watermarkInput = function(field) {
     //var watermark = 'Puts your email address';
 
     //init, set watermark text and class
-    $('input[watermark]').each(function() {
+    field.each(function() {
         var displayText = $(this).attr('watermark');
         $(this).val(displayText).addClass('watermark');
         
@@ -58,8 +58,13 @@ $(document).ready(function () {
         cycleEndorsement();
     });
     
-    if($('input[watermark]').length > 0) {
-        watermarkInput();
+    if ($('input[watermark]').length > 0) {
+        var field = $('input[watermark]');
+        watermarkInput(field);
+    }
+    if ($('textarea[watermark]').length > 0) {
+        var field = $('textarea[watermark]');
+        watermarkInput(field);
     }
     
 
