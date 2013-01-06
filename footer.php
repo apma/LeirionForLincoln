@@ -48,7 +48,7 @@
             <br />
             <div class="footer-legalese">
             <p>&copy; <?php $the_year = date("Y"); echo $the_year; ?> Leirion Gaylor Baird for Lincoln City Council </p>
-            <p class="border">Paid for by Tracy Sanford. Treasurer. P.O. Box 23185, Lincoln, NE 68542</p></div>
+            <p class="border">Paid for by Leirion for Lincoln | Tracy Sanford, Treasurer, P.O. Box 23185, Lincoln, NE 68542</p></div>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #wrapper -->

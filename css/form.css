@@ -707,7 +707,7 @@ input.btTxt
     #form1 li div span
     {
         margin: 0;
-        display: block;
+        
         width: 100%;
         float: left;
     }
@@ -747,11 +747,11 @@ li.notStacked div span
             margin: 0;
         }
 
-        #form1 li.complex div span.left, #form1 li.complex div span.right
+        /*#form1 li.complex div span.left, #form1 li.complex div span.right
         {
             margin: 0;
             width: 48%;
-        }
+        }*/
 
             #form1 li.complex div span.full input, #form1 li.complex div span.full select, #form1 li.complex div span.left input, #form1 li.complex div span.right input, #form1 li.complex div span.left select, #form1 li.complex div span.right select
             {
@@ -779,7 +779,7 @@ label span, .section span, p span, .likert span
     float: none !important;
 }
 
-#form1 li div label, #form1 li span label
+/*#form1 li div label, #form1 li span label
 {
     margin: 0;
     padding-top: 3px;
@@ -788,7 +788,7 @@ label span, .section span, p span, .likert span
     line-height: 160%;
     color: #444;
     display: block;
-}
+}*/
 
 fieldset
 {
@@ -879,7 +879,6 @@ span.symbol
     border-left: 1px solid #c3c3c3;
     border-right: 1px solid #c3c3c3;
     border-bottom: 1px solid #ddd;
-    background: #fff url(../images/fieldbg.gif) repeat-x top;
 }
 
 #form1 input.nospin::-webkit-inner-spin-button,#form1 input.nospin::-webkit-outer-spin-button

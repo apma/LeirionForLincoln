@@ -3,9 +3,9 @@
 var cycleEndorsement = function () {
     
     $('#endorsement-block').each(function () {
-        var $cur = $(this).find('.current').removeClass('current');
-        var $next = $cur.next().length ? $cur.next() : $(this).children().eq(0);
-        $next.addClass('current');
+        var cur = $(this).find('.current').removeClass('current');
+        var next = cur.next().length ? cur.next() : $(this).children().eq(0);
+        next.addClass('current');
     })
 };
  
@@ -33,11 +33,11 @@ var watermarkInput = function(field) {
    
 }
 
-$(document).ready(function () {
-        // Set a random arrangement on page load to ensure unique initial display
-    var $endorsementContainer = $('#endorsement-block');
-    var $endorsement = $('.endorsement');
-    
+$(document).ready(function() {
+    // Set a random arrangement on page load to ensure unique initial display
+    var endorsementContainer = $('#endorsement-block');
+    var endorsement = $('.endorsement');
+
 
     //var $liArr = $endorsementContainer.children('.endorsement');
     //$liArr.sort(function (a, b) {
@@ -51,13 +51,21 @@ $(document).ready(function () {
     //    return (isOddOrEven * isPosOrNeg);
     //}).appendTo($endorsementContainer);
 
-    $endorsement.first().addClass('current');
+    endorsement.first().addClass('current');
 
-    $('.endorse').click(function () {
-        
+    $('.endorse').click(function() {
+
         cycleEndorsement();
     });
-    
+
+    //Form items
+   
+    if ($('form.wufoo li span label').length > 0) {
+        var hideLabels = $('form.wufoo li span label');
+        hideLabels.each(function() {
+            $(this).not('.choice').addClass('hideLabel');
+        });
+    };
     if ($('input[watermark]').length > 0) {
         var field = $('input[watermark]');
         watermarkInput(field);

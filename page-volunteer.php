@@ -10,11 +10,12 @@ get_header(); ?>
         <h1>Volunteer to Help</h1>
 		<div id="content" role="main">
             <div id="main-content">
+            <?php the_block('main'); ?>
+            
+            
               <form id="form1" name="form1" class="wufoo topLabel page" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://leirion.wufoo.com/forms/z7x3p9/#public">
 
-    <header id="header" class="info">
-        <div>Thank you for your interest in volunteering. Please fill out the form below with your areas of interest and someone from our campaign will follow up with you shortly.</div>
-    </header>
+    
 
     <ul>
 
@@ -60,6 +61,42 @@ get_header(); ?>
                 <label for="Field205-2">####</label>
             </span>
         </li>
+        <li id="foli208" class="complex notranslate      ">
+    <label class="desc" id="title208" for="Field208">
+        Address
+    </label>
+    <div>
+        <span class="full addr1">
+            <input id="Field208" name="Field208" watermark="Street Address" type="text" class="field text addr" value="" tabindex="7" />
+            <label for="Field208">Street Address</label>
+        </span>
+        <span class="full addr2">
+            <input id="Field209" name="Field209" watermark="Address Line 2" type="text" class="field text addr" value="" tabindex="8" />
+            <label for="Field209">Address Line 2</label>
+        </span>
+        <span class="left city">
+            <input id="Field210" name="Field210" watermark="City" type="text" class="field text addr" value="" tabindex="9" />
+            <label for="Field210">City</label>
+        </span>
+        <span class="right state">
+            <input id="Field211" name="Field211" watermark="State" type="text" class="field text addr" value="" tabindex="10" />
+            <label for="Field211">State</label>
+        </span>
+        <span class="left zip">
+            <input id="Field212" name="Field212" watermark="Zip Code" type="text" class="field text addr" value="" maxlength="15" tabindex="11" />
+            <label for="Field212">Zip Code</label>
+        </span>
+        <span class="right country hide">
+            <select id="Field213" name="Field213" class="field select addr" tabindex="12">
+                <option value="United States" selected="selected">United States</option>
+                <option value="United States">United States</option>
+                
+            </select>
+            <label for="Field213">Country</label>
+        </span>
+    </div>
+</li>
+
         <li id="foli105" class="notranslate  twoColumns     ">
             <fieldset>
                 <![if !IE | (gte IE 8)]>
@@ -80,7 +117,7 @@ get_header(); ?>
                     </span>
                     <span>
                         <input id="Field106" name="Field106" type="checkbox" class="field checkbox" value="I&#039;ll host an event" tabindex="8" />
-                        <label class="choice" for="Field106">I'll host an event</label>
+                        <label class="choice" for="Field106">I'll host or sponsor an event</label>
                     </span>
                     <span>
                         <input id="Field107" name="Field107" type="checkbox" class="field checkbox" value="I&#039;ll make a donation" tabindex="9" />
