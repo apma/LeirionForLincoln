@@ -37,6 +37,7 @@ get_header(); ?>
         
             <label class="desc" id="title3" for="Field3">
                 Email
+                <span id="req_3" class="req">*</span>
             </label>
             <div>
                 <input id="Field3" name="Field3" watermark="someone@email.com" type="email" spellcheck="false" class="field text medium" value="" maxlength="255" tabindex="3" />
@@ -45,6 +46,7 @@ get_header(); ?>
         <li id="foli205" class="phone notranslate      ">
             <label class="desc" id="title205" for="Field205">
                 Phone Number
+                <span id="req_205" class="req">*</span>
             </label>
             <span>
                 <input id="Field205" name="Field205" type="tel" class="field text" value="" size="3" maxlength="3" tabindex="4" />
@@ -64,6 +66,7 @@ get_header(); ?>
         <li id="foli208" class="complex notranslate      ">
     <label class="desc" id="title208" for="Field208">
         Address
+        <span id="req_208" class="req">*</span>
     </label>
     <div>
         <span class="full addr1">

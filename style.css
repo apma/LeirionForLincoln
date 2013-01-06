@@ -247,6 +247,7 @@ header#masthead hgroup{height:144px;}
 #secondary #content #sidebar address,#secondary #content #sidebar address p , #secondary #content #main-content address {font-family: helvetica, sans-serif;font-size: 13px;line-height: 17px;color: #323232;margin-bottom: 4px;font-style: normal;}
 .blog-timestamp,.blog-meta{font-family: georgia, sans-serif;font-size: 14px;line-height: 20px;color: #a1a0a0;margin-bottom: 12px;font-style: italic;}
 .blog-nav, a.blog-nav{font-family: georgia, sans-serif;font-size: 15px;line-height: 23px;color: #51941d;margin-top: 8px;font-style: italic;}
+.blog-nav { color: #a1a0a0;}
 .blog-nav-divider{font-family: georgia, sans-serif;font-size: 15px;line-height: 23px;color: #323232;margin-top: 8px;font-style: italic;}
 /*.blog-meta { font-family: georgia, sans-serif; color: #656565;font-size: 11px;}*/
 img.donate-button{display: inline-block; height: 35px;width: 126px;background: url(/wp-content/themes/leirionforlincoln/images/submit-button-sprite.jpg) no-repeat 0 0;text-indent: -9999px;}

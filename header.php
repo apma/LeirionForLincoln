@@ -69,7 +69,7 @@
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
             </div>
             
-            <img id="logo" src="/wp-includes/images/logo-leirion-for-lincoln.png" />
+            <a href="/"><img id="logo" src="/wp-includes/images/logo-leirion-for-lincoln.png" /></a>
 		</hgroup>
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">

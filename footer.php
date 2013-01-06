@@ -16,7 +16,7 @@
             <div class="social_media_box">
                     <div class="social_containers">
                         <h3>Contact Our Campaign</h3>
-                        <a class="footerbutton"><span>Go &raquo;</span></a>
+                        <a class="footerbutton" href="<?php echo get_page_link(90); ?>"><span>Go &raquo;</span></a>
                     </div>            
                     
                     <div class="social_containers">

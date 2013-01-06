@@ -9,12 +9,11 @@ get_header(); ?>
         <h1>Contact Us</h1>
 		<div id="content" role="main">
             <div id="main-content">
+                <?php the_block('main'); ?>
                 <form id="form3" name="form3" class="wufoo topLabel page" autocomplete="off" enctype="multipart/form-data" method="post" novalidate
         action="https://leirion.wufoo.com/forms/q7x2x3/#public">
 
-        <p>
-        Thank you for you interest. Use the form below to get in touch with us. We'll get back to you as soon as we can.
-        </p>
+        
         
 
         <ul>
@@ -22,6 +21,7 @@ get_header(); ?>
             <li id="foli1" class="notranslate      ">
                 <label class="desc" id="title1" for="Field1">
                     Name
+                    <span id="req_1" class="req">*</span>
                 </label>
                 <span>
                     <input id="Field1" name="Field1"  watermark="First" type="text" class="field text fn" value="" size="8" tabindex="1" />
@@ -35,9 +35,10 @@ get_header(); ?>
             <li id="foli3" class="notranslate      ">
                 <label class="desc" id="title3" for="Field3">
                     Email
+                    <span id="req_3" class="req">*</span>
                 </label>
                 <div>
-                    <input id="Field3" name="Field3" watermark="Email" type="email" spellcheck="false" class="field text medium" value="" maxlength="255" tabindex="3" />
+                    <input id="Field3" name="Field3" watermark="someone@email.com" type="email" spellcheck="false" class="field text medium" value="" maxlength="255" tabindex="3" />
                 </div>
             </li>
             <li id="foli4" class="phone notranslate      ">
@@ -68,6 +69,7 @@ get_header(); ?>
                 <div>
                     <textarea id="Field5"
                         name="Field5"
+                        watermark="Send us your thoughts."
                         class="field textarea medium"
                         spellcheck="true"
                         rows="10" cols="50"

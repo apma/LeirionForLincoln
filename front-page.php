@@ -11,7 +11,9 @@ get_header(); ?>
             <div id="tri-fold-area">
                 <div class="home-tri-fold">
                     <h1>Featured Video</h1>
-                    <a class="headerbutton-tri-fold"><span>More Videos &raquo;</span></a>
+                    <a class="headerbutton-tri-fold" href="http://www.youtube.com/channel/UCpe25KXOg4TKfGCEx9qhJsQ?feature=watch">
+                        <span>More Videos &raquo;</span>
+                    </a>
                     <div class="clear-both"></div>
                     <div class="tri-fold-content">
                         <?php the_block('video'); ?>
@@ -19,7 +21,7 @@ get_header(); ?>
                 </div>
                 <div class="home-tri-fold">
                     <h1>Recent Post</h1>
-                    <a class="headerbutton-tri-fold"><span>More Blog Posts &raquo;</span></a>
+                    <a class="headerbutton-tri-fold" href="<?php echo get_page_link(9); ?>"><span>More Blog Posts &raquo;</span></a>
                     <div class="clear-both"></div>
                     <div class="tri-fold-content">
                         
@@ -50,12 +52,7 @@ get_header(); ?>
                     <div class="tri-fold-content">
                         <div id="endorsement-block">
                         <?php the_block('endorsements'); ?>
-                        <!--<div class="quote">
-                            <p>
-                            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-                            </p>
-                        </div>
-                        <div class="byline">&mdash; Mary Ma, Lincoln Resident<br /> Small Business Owner</div>-->
+                        
                         </div>
                     </div>
                 </div>
