@@ -33,10 +33,16 @@
     <Content Include="editor-styleXX.css">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="HTMLPage1.htm">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="images\background-pattern.png">
       <SubType>Content</SubType>
     </Content>
     <Content Include="images\button-donate.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\button-gray-sprite.jpg">
       <SubType>Content</SubType>
     </Content>
     <Content Include="images\button-gray.jpg">
@@ -51,6 +57,9 @@
     <Content Include="images\check-box.png">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="images\donate-button-sprite.jpg">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="images\endorsement-arrow.png">
       <SubType>Content</SubType>
     </Content>
@@ -58,6 +67,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="images\footer.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\form.css">
       <SubType>Content</SubType>
     </Content>
     <Content Include="images\homepage-photo-banner.jpg">
@@ -108,6 +120,9 @@
     <Content Include="images\social_media_sprite_1219.png">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="images\submit-button-sprite.jpg">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="js\maDesign.js">
       <SubType>Content</SubType>
     </Content>
@@ -137,6 +152,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="content.php">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="page-contact.php">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="single.php">
