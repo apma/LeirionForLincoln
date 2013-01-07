@@ -4,6 +4,47 @@
  */
 
 
+
+add_filter( 'mce_buttons_2', 'my_mce_buttons_2' );
+
+function my_mce_buttons_2( $buttons ) {
+    array_unshift( $buttons, 'styleselect' );
+    return $buttons;
+}
+add_filter( 'tiny_mce_before_init', 'my_mce_before_init' );
+
+function my_mce_before_init( $settings ) {
+
+    $style_formats = array(
+    	array(
+    		'title' => 'Credit Entry',
+            'inline' => 'span',
+    		'classes' => 'creditentry'
+    	),
+        array(
+        	'title' => 'Callout Box',
+        	'block' => 'div',
+        	'classes' => 'callout',
+        	'wrapper' => true
+        ),
+        array(
+        	'title' => 'Bold Red Text',
+        	'inline' => 'span',
+        	'styles' => array(
+        		'color' => '#f00',
+        		'fontWeight' => 'bold'
+        	)
+        )
+    );
+
+    $settings['style_formats'] = json_encode( $style_formats );
+
+    return $settings;
+
+}
+/*EditorStyleSheet*/
+add_editor_style('mad-editor-style.css');
+
 /*Need to check if user logged in. If not, don't show.*/
 if ( is_user_logged_in() ) {
     add_filter( 'show_admin_bar', '__return_true' );

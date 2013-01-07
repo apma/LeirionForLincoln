@@ -353,3 +353,8 @@ span.symbol { line-height: 225%;}
    box-shadow:         inset 0 0 10px #000000;
 }
 .hide { display: none;}
+
+
+/* Editor Classes */
+#secondary #content #main-content p span.creditentry{font-family:georgia,san-serif; font-style:italic; font-size:17px;margin-bottom: 12px;}
+    #secondary #content #main-content p span.creditentry a {font-family:georgia,san-serif; font-style:italic; font-size:17px;color: #51941d;text-decoration: underline;}

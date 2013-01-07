@@ -15,6 +15,9 @@
     <IncludeDebugInformation>false</IncludeDebugInformation>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="Copy of editor-styleXX.css">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="css\form.css">
       <SubType>Content</SubType>
     </Content>
@@ -24,7 +27,7 @@
     <Content Include="css\theme.css">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="editor-style.css">
+    <Content Include="mad-editor-style.css">
       <SubType>Content</SubType>
     </Content>
     <Content Include="css\ie.css">

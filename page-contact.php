@@ -46,17 +46,17 @@ get_header(); ?>
                     Phone Number
                 </label>
                 <span>
-                    <input id="Field4" name="Field4" type="tel" class="field text" value="" size="3" maxlength="3" tabindex="4" />
+                    <input id="Field4" name="Field4" watermark="555" type="tel" class="field text" value="" size="3" maxlength="3" tabindex="4" />
                     <label for="Field4">###</label>
                 </span>
                 <span class="symbol">-</span>
                 <span>
-                    <input id="Field4-1" name="Field4-1" type="tel" class="field text" value="" size="3" maxlength="3" tabindex="5" />
+                    <input id="Field4-1" name="Field4-1" watermark="555" type="tel" class="field text" value="" size="3" maxlength="3" tabindex="5" />
                     <label for="Field4-1">###</label>
                 </span>
                 <span class="symbol">-</span>
                 <span>
-                    <input id="Field4-2" name="Field4-2" type="tel" class="field text" value="" size="4" maxlength="4" tabindex="6" />
+                    <input id="Field4-2" name="Field4-2" watermark="5555" type="tel" class="field text" value="" size="4" maxlength="4" tabindex="6" />
                     <label for="Field4-2">####</label>
                 </span>
             </li>

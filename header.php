@@ -47,7 +47,7 @@
 
 
 
-                    <input id="Field1" name="Field1" type="email" watermark="Email Address." spellcheck="false" class="field text medium head_contrib_box" value="" maxlength="255" tabindex="1" required /> 
+                    <input id="Field1" name="Field1" type="email" watermark="Email Address" spellcheck="false" class="field text medium head_contrib_box" value="" maxlength="255" tabindex="1" required /> 
 
                     <ul style="display:none">
                     <li class="hide">

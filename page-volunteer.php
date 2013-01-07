@@ -49,17 +49,17 @@ get_header(); ?>
                 <span id="req_205" class="req">*</span>
             </label>
             <span>
-                <input id="Field205" name="Field205" type="tel" class="field text" value="" size="3" maxlength="3" tabindex="4" />
+                <input id="Field205" name="Field205" watermark="555" type="tel" class="field text" value="" size="3" maxlength="3" tabindex="4" />
                 <label for="Field205">###</label>
             </span>
             <span class="symbol">-</span>
             <span>
-                <input id="Field205-1" name="Field205-1" type="tel" class="field text" value="" size="3" maxlength="3" tabindex="5" />
+                <input id="Field205-1" name="Field205-1" watermark="555" type="tel" class="field text" value="" size="3" maxlength="3" tabindex="5" />
                 <label for="Field205-1">###</label>
             </span>
             <span class="symbol">-</span>
             <span>
-                <input id="Field205-2" name="Field205-2" type="tel" class="field text" value="" size="4" maxlength="4" tabindex="6" />
+                <input id="Field205-2" name="Field205-2" watermark="5555" type="tel" class="field text" value="" size="4" maxlength="4" tabindex="6" />
                 <label for="Field205-2">####</label>
             </span>
         </li>
