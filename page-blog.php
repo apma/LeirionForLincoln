@@ -16,7 +16,7 @@ get_header(); ?>
             <a href="<?php the_permalink() ?>" rel="bookmark"><h2><?php the_title(); ?></h2></a>
             <div class="blog-timestamp"><?php the_time('l, F j, Y'); ?></div>
             <?php the_excerpt(); ?>
-            <span class="blog-nav"><?php comments_number('Comments(%)' );?> </span>
+            <span class="blog-nav"><?php comments_number('Comments(0)' );?> </span>
             <span class="blog-nav-divider">|</span>
             <a href="<?php echo get_permalink(); ?>" class="blog-nav"> Continue Reading</a>
             </div>

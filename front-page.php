@@ -34,7 +34,7 @@ get_header(); ?>
                         <a href="<?php the_permalink() ?>" rel="bookmark"><h2><?php the_title(); ?></h2></a>
                         <div class="home-timestamp"><?php the_time('F j, Y'); ?> at <?php the_time('g:i a'); ?></div>
                         <?php the_excerpt('Read the rest of this entry &raquo;'); ?>
-                         <span class="blog-nav"><?php comments_number('Comments(%)' );?> </span>
+                         <span class="blog-nav"><?php comments_number('Comments(0)' );?> </span>
             <span class="blog-nav-divider">|</span>
             <a href="<?php echo get_permalink(); ?>" class="blog-nav"> Continue Reading</a>
                         <?php  endwhile;

@@ -331,16 +331,16 @@ span.symbol { line-height: 225%;}
 #form1 ul li.buttons input#saveForm,#form3 ul li.buttons input#saveForm, #commentform p input#submit{display: inline-block; height: 35px;width: 126px;background: url(/wp-content/themes/leirionforlincoln/images/submit-button-sprite.jpg) no-repeat 0 0;text-indent: -9999px;border: 0 none;}
 #form1 ul li.buttons input#saveForm:hover,#form3 ul li.buttons input#saveForm:hover, #commentform p input#submit:hover{display: inline-block; height: 35px;width: 126px;background: url(/wp-content/themes/leirionforlincoln/images/submit-button-sprite.jpg) no-repeat 0 -35px;text-indent: -9999px;border: 0 none;}
 
-#comments{ font-family: helvetica, sans-serif;font-size: 15px;margin: 5px 0 5px 0;}
+#comments,#respond h3{ font-family: helvetica, sans-serif;font-size: 15px;margin: 5px 0 5px 0;color: #1b3768; }
 .comment-body{ margin: 8px 0 0 7px;font-size: 12px;}
 #secondary #content #main-content p .comment-body p{ color: #5f7294;font-size: 12px;}
 .comment-author img{ float: left; }
-.comment-author .fn,.comment-author .says{ margin: 2px 0 0 5px;}
-.comment-meta{ font-family: georgia, sans-serif;font-size: 11px;color: #323232;margin: 5px 0 5px 5px;}
+.comment-author .fn,.comment-author .says, .comment-meta a{font-family: georgia, sans-serif;font-style: italic;font-size: 14px;color: #a1a0a0; margin: 2px 0 0 5px;}
+.comment-meta { font-family: georgia, sans-serif;font-size: 11px;color: #323232;margin: 5px 0 5px 5px;}
 .comment-edit-link{ font-family: helvetica, sans-serif;color: #1b3768;}
-.reply{font-family: helvetica, sans-serif;color: #1b3768;font-size: 12px;margin: 0 0 10px 5px;}
-#respond h3{ font-family: Georgia, sans-serif;color: #51941d;font-size: 14px;}
-
+.reply{font-family: helvetica, sans-serif;color: #51941d;font-size: 12px;margin: 0 0 10px 5px;text-decoration: underline;}
+#secondary #content #main-content #respond form#commentform p{font-family: georgia, sans-serif;font-style: italic;font-size: 14px;color: #a1a0a0; margin: 2px 0 0 5px;}
+#secondary #content #main-content #respond form#commentform p a{font-family: georgia, sans-serif;font-style: italic;font-size: 14px;color: #51941d; margin: 2px 0 0 5px;}
 /* Wufoo copy */
 .wufoo li.focused label.desc, .wufoo li.focused legend.desc,
 .wufoo li.focused div, .wufoo li.focused span, .wufoo li.focused div label, .wufoo li.focused span label,
