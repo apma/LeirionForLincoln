@@ -52,7 +52,13 @@ get_header(); ?>
                     <div class="tri-fold-content">
                         <div id="endorsement-block">
                         <?php the_block('endorsements'); ?>
-                        
+                        <!--<div class="endorsement">
+<div class="endorsement-quote">
+
+&nbsp;
+
+</div>
+</div>-->
                         </div>
                     </div>
                 </div>

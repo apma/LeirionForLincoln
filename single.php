@@ -25,7 +25,7 @@ get_header(); ?>
             
             <div id="sidebar">
                 <h2>Please Donate Today</h2>
-<p>Every contribution, every dollar makes a difference. Click below to contribute online with your credit card. You will be taken to PayPal&#8217;s website to make your donation.</p>
+<p>Every donation, every dollar makes a real difference and is gratefully appreciated. By clicking below, you can make a safe and secure online contribution using PayPal.</p>
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick"><input type="hidden" name="hosted_button_id" value="73T852CR6BSRQ"><input type="image" src="http://66.147.244.93/wp-includes/images/button-donate.jpg" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"><br />
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"><br />

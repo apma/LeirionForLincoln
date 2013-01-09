@@ -22,19 +22,29 @@ function my_mce_before_init( $settings ) {
     		'classes' => 'creditentry'
     	),
         array(
-        	'title' => 'Callout Box',
-        	'block' => 'div',
-        	'classes' => 'callout',
-        	'wrapper' => true
-        ),
+    		'title' => 'FinePrint',
+            'inline' => 'span',
+    		'classes' => 'fineprint'
+    	),
         array(
-        	'title' => 'Bold Red Text',
-        	'inline' => 'span',
-        	'styles' => array(
-        		'color' => '#f00',
-        		'fontWeight' => 'bold'
-        	)
-        )
+    		'title' => 'Signature',
+            'inline' => 'span',
+    		'classes' => 'signature'
+    	)
+     //   array(
+     //   	'title' => 'Callout Box',
+     //   	'block' => 'div',
+     //   	'classes' => 'callout',
+     //   	'wrapper' => true
+     //   ),
+     //   array(
+     //   	'title' => 'Bold Red Text',
+     //   	'inline' => 'span',
+     //   	'styles' => array(
+     //   		'color' => '#f00',
+     //   		'fontWeight' => 'bold'
+     //   	)
+        //)
     );
 
     $settings['style_formats'] = json_encode( $style_formats );
