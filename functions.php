@@ -13,6 +13,11 @@ function my_mce_buttons_2( $buttons ) {
 }
 add_filter( 'tiny_mce_before_init', 'my_mce_before_init' );
 
+function custom_excerpt_length( $length ) {
+	return 70;
+}
+add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
+
 function my_mce_before_init( $settings ) {
 
     $style_formats = array(

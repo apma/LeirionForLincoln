@@ -27,6 +27,24 @@
     <Content Include="css\theme.css">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="FB\Donate.htm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="FB\fb-donate-app.pdf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="FB\fb-header-bkgrd.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="FB\fb-logo.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="FB\fb-photo.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="FB\Thumbs.db">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="mad-editor-style.css">
       <SubType>Content</SubType>
     </Content>
@@ -147,6 +165,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="css\" />
+    <Folder Include="FB\" />
     <Folder Include="images\" />
     <Folder Include="js\" />
   </ItemGroup>
