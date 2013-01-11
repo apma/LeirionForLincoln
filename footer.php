@@ -21,12 +21,39 @@
                     
                     <div class="social_containers">
                         <h3>YouTube</h3>
-                        <div><iframe width="112" height="63" src="http://www.youtube.com/embed/kNZMeWu6f88" frameborder="0" allowfullscreen></iframe></div>
+                        <div class="headspace"><iframe width="112" height="63" src="http://www.youtube.com/embed/kNZMeWu6f88" frameborder="0" allowfullscreen></iframe></div>
                         <div class="goto">Go to <a href="http://www.youtube.com/channel/UCpe25KXOg4TKfGCEx9qhJsQ">leirion4lincoln's youtube channel</a></div>
                     </div>            
                     
                     <div class="social_containers">
                         <h3>Flickr</h3>
+                        <div  class="headspace">
+                        <!-- Start of Flickr Badge -->
+<style type="text/css">
+#flickr_badge_source_txt {padding:0; font: 11px Arial, Helvetica, Sans serif; color:#666666;}
+#flickr_badge_icon {display:block !important; margin:0 !important; border: 1px solid rgb(0, 0, 0) !important;}
+#flickr_icon_td {padding:0 5px 0 0 !important;}
+.flickr_badge_image {text-align:center !important;}
+.flickr_badge_image img {border: 0px solid black !important;}
+#flickr_www {display:block; padding:0 10px 0 10px !important; font: 11px Arial, Helvetica, Sans serif !important; color:#3993ff !important;}
+#flickr_badge_uber_wrapper a:hover,
+#flickr_badge_uber_wrapper a:link,
+#flickr_badge_uber_wrapper a:active,
+#flickr_badge_uber_wrapper a:visited {text-decoration:none !important; background:inherit !important;color:#3993ff;}
+#flickr_badge_wrapper {background-color:#ffffff;}
+#flickr_badge_source {padding:0 !important; font: 11px Arial, Helvetica, Sans serif !important; color:#666666 !important;}
+</style>
+<table id="flickr_badge_uber_wrapper" cellpadding="0" cellspacing="10" border="0"><tr><td><a href="http://www.flickr.com" id="flickr_www">www.<strong style="color:#3993ff">flick<span style="color:#ff1c92">r</span></strong>.com</a><table cellpadding="0" cellspacing="10" border="0" id="flickr_badge_wrapper">
+<tr>
+<script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=3&display=latest&size=s&layout=h&source=user&user=90833355%40N06"></script>
+</tr>
+</table>
+</td></tr></table>
+<!-- End of Flickr Badge -->
+
+                        
+                        
+                        </div>
                         <div class="goto">Go to <a href="http://www.flickr.com/photos/90833355@N06/">leirion4lincoln's photostream</a></div>
                     </div>            
             

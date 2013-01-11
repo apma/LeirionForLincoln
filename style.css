@@ -263,13 +263,16 @@ img.donate-button:hover{display: inline-block; height: 35px;width: 126px;backgro
 #connect-area #connect-content h2 {font-family: helvetica, sans-serif;font-size: 24px;color: #1b3768;font-weight: normal;}
 #connect-area #connect-content .social_media_box .social_containers{ border: 1px #e5e4e4 solid;background: #fff;padding: 15px;margin-bottom: 12px;}
 #connect-area #connect-content .social_media_box .social_containers h3 {font-family: helvetica, sans-serif;font-size: 17px;color: #333333;width: 80%;display: inline-block;}
-#connect-area #connect-content .social_media_box .social_containers .goto { font-family: helvetica, sans-serif;font-size: 11px;color:#656565;margin-top: 12px;}
+#connect-area #connect-content .social_media_box .social_containers .goto { font-family: helvetica, sans-serif;font-size: 11px;color:#656565;margin-top: 6px;}
 #connect-area #connect-content .social_media_box .social_containers .goto a { font-family: helvetica, sans-serif;font-size: 11px;color:#3993ff;}
 #connect-area #connect-content .social_media_box .social_containers a.footerbutton span { margin: 4px 3px 0 3px;display: block;}
 #connect-area #connect-content .social_media_box .social_containers a.footerbutton {float: right;background: url(/wp-content/themes/leirionforlincoln/images/button-gray-sprite.jpg) repeat-x 0 0;font-family: helvetica, sans-serif;
                                           color: #656565;font-size: 11px;height: 18px;border: 1px #c8c8c8 solid;cursor: pointer;padding:0 5px 0px 5px}
 #connect-area #connect-content .social_media_box .social_containers a.footerbutton:hover {float: right;background: url(/wp-content/themes/leirionforlincoln/images/button-gray-sprite.jpg) repeat-x 0 -18px;font-family: helvetica, sans-serif;
                                           color: #656565;font-size: 11px;height: 18px;border: 1px #c8c8c8 solid;cursor: pointer;padding:0 5px 0px 5px}
+#connect-area #connect-content .social_media_box .social_containers #flickr_www { display: none;}
+#connect-area #connect-content .social_media_box .social_containers .flickr_badge_image img {margin-right: 12px; border: 0 none;}
+#connect-area #connect-content .social_media_box .social_containers .headspace { margin-top: 6px;}
 
 
 #colophon { background: url(/wp-content/themes/leirionforlincoln/images/footer.png) repeat-x;height: 145px;font-family: helvetica, sans-serif;border-left: 1px solid #e5e4e4;border-right: 1px solid #e5e4e4;}
