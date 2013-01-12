@@ -241,7 +241,8 @@ header#masthead hgroup{height:144px;}
 #secondary #content #main-content {float: left;width: 600px;margin: 40px 0 30px 30px;}
 #secondary #content #main-content img, #secondary #content #sidebar img {border:1px solid #d6d7d7;}
 #secondary #content #main-content p, #form1 header { font-family: helvetica, sans-serif;font-size: 15px;line-height: 23px;color: #323232;margin-bottom: 12px;}
-#secondary #content #main-content p span a,#secondary #content #main-content p span a {color:#519f1d;}
+#secondary #content #main-content p span a,#secondary #content #main-content p a {color:#519f1d;}
+#secondary #content #main-content ol { list-style-type: decimal;margin-left: 20px;font-family: helvetica, sans-serif;color: #6d6d6d;font-size: 12px;}
 #secondary #content #sidebar {float: right; width: 280px;margin: 40px 30px 30px 0;}
 #secondary #content #sidebar h2 { color: #1b3768;font-family: helvetica, sans-serif;font-size: 22px;margin-bottom: 8px;font-style: normal;margin-left: 0px;font-weight: normal;}
 #secondary #content #sidebar p{ font-family: georgia, sans-serif;font-size: 14px;line-height: 23px;color: #323232;margin-bottom: 8px;font-style: italic;}
@@ -311,6 +312,7 @@ form.wufoo li span label.hideLabel{display:none}
 form.wufoo li.complex div span.left, form.wufoo li.complex div span.right {width: 230px;margin-right: 17px;}
 #form1 input#Field205,#form1 input#Field205-1,#form1 input#Field205-2,#form1 input#Field208,#form1 input#Field209,#form1 input#Field210,
 #form1 input#Field211,#form1 input#Field212,#form3 input#Field4,#form3 input#Field4-1,#form3 input#Field4-2 { margin: 0;height: 40px;}
+#form1 input#Field205,#form1 input#Field205-1,#form1 input#Field205-2,#form3 input#Field4,#form3 input#Field4-1,#form3 input#Field4-2 { width: 60px;}
 #form1 input#Field210 {width:230px}
 #form1 input#Field211{width:60px}
 #form1 input#Field212{ width: 100px;}
@@ -363,5 +365,5 @@ span.symbol { line-height: 225%;}
 /* Editor Classes */
 #secondary #content #main-content p span.creditentry{font-family:georgia,san-serif; font-style:italic; font-size:17px;margin-bottom: 12px;}
     #secondary #content #main-content p span.creditentry a {font-family:georgia,san-serif; font-style:italic; font-size:17px;color: #51941d;text-decoration: underline;}
-#secondary #content #main-content p span.fineprint{ font-family: helvetica, sans-serif;font-weight: normal;font-size: 13px;color: #6d6d6d;}
+#secondary #content #main-content p span.fineprint,#secondary #content #main-content ol li span.fineprint{ font-family: helvetica, sans-serif;font-weight: normal;font-size: 13px;color: #6d6d6d;}
 #secondary #content #main-content p span.signature{ font-family: georgia, sans-serif;font-style: italic;font-size: 17px;}
